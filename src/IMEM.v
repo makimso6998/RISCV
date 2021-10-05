@@ -3,7 +3,7 @@
  ***@Date:   Nov 1st, 2018
 */
 
-/******** Instruction Memmory Block ********/
+/******** Instruction Memmory Block 123 ********/
 module IMEM(inst,PC);
 parameter	INST_WIDTH_LENGTH = 32;
 parameter	PC_WIDTH_LENGTH = 32;
