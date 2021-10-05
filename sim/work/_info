@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vIMEM
+!s110 1633438337
+!i10b 1
+!s100 Jl5kP]eU8XICaMDInDlkj0
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IXJ8;G_L2[3E8KC[lF>5`m1
+VDg1SIo80bB@j0V0VzS_@n1
+dD:/FPGA/CompurterAchitecture/RISCV
+w1633438331
+8H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v
+FH:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v
+!i122 1
+L0 7 30
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1633438337.000000
+!s107 H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v|
+!i113 1
+o-work work
+tCvgOpt 0
+n@i@m@e@m

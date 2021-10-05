@@ -1,0 +1,8 @@
+{H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v} {1 {vlog -work work -stats=none {H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IMEM
+
+Top level modules:
+	IMEM
+
+} {} {}}

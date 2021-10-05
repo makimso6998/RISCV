@@ -1,0 +1,21 @@
+# Compile of IMEM.v was successful.
+# Compile of IMEM.v was successful.
+vsim -gui work.IMEM
+# vsim -gui work.IMEM 
+# Start time: 19:52:28 on Oct 05,2021
+# Loading work.IMEM
+run -all
+# ** Warning: (vsim-PLI-3410) Illegal character 'I' in data on line 1 of file "H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/factorial.txt".    : H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v(25)
+#    Time: 0 ps  Iteration: 0  Instance: /IMEM
+# ** Warning: (vsim-PLI-3410) Illegal character 'M' in data on line 1 of file "H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/factorial.txt".    : H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v(25)
+#    Time: 0 ps  Iteration: 0  Instance: /IMEM
+# ** Warning: (vsim-PLI-3410) Illegal character 'M' in data on line 1 of file "H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/factorial.txt".    : H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v(25)
+#    Time: 0 ps  Iteration: 0  Instance: /IMEM
+# ** Warning: (vsim-PLI-3410) Illegal character '[' in data on line 1 of file "H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/factorial.txt".    : H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v(25)
+#    Time: 0 ps  Iteration: 0  Instance: /IMEM
+# ** Warning: (vsim-PLI-3410) Illegal character ']' in data on line 1 of file "H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/factorial.txt".    : H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v(25)
+#    Time: 0 ps  Iteration: 0  Instance: /IMEM
+add wave /IMEM/IMEM
+# (vsim-4077) Logging very large object: /IMEM/IMEM
+# End time: 20:54:24 on Oct 05,2021, Elapsed time: 1:01:56
+# Errors: 0, Warnings: 11
