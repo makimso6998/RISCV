@@ -1,8 +1,36 @@
-{H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v} {1 {vlog -work work -stats=none {H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v}
+D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module IMEM
 
 Top level modules:
 	IMEM
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMEM_ADDJ
+
+Top level modules:
+	DMEM_ADDJ
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMEM_tb
+
+Top level modules:
+	DMEM_tb
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMEM
+
+Top level modules:
+	DMEM
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IMEM_Test
+
+Top level modules:
+	IMEM_Test
 
 } {} {}}

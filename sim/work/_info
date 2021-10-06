@@ -9,27 +9,147 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA_lite/20.1
-vIMEM
-!s110 1633438337
+vDMEM
+Z0 !s110 1633504856
 !i10b 1
-!s100 Jl5kP]eU8XICaMDInDlkj0
-!s11b Dg1SIo80bB@j0V0VzS_@n1
-IXJ8;G_L2[3E8KC[lF>5`m1
-VDg1SIo80bB@j0V0VzS_@n1
-dD:/FPGA/CompurterAchitecture/RISCV
-w1633438331
-8H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v
-FH:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v
-!i122 1
-L0 7 30
-OV;L;2020.1;71
+!s100 4E7f>9AdBVnN:1XJc5Dnb2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IL4XQ1LP7;YWI@<XVd=d^^0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/FPGA/CompurterAchitecture/RISCV/sim
+w1633501708
+8D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
+FD:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
+!i122 135
+L0 1 37
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1633438337.000000
-!s107 H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v|
-!s90 -reportprogress|300|-work|work|-stats=none|H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/IMEM.v|
+Z5 !s108 1633504856.000000
+!s107 D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v|
 !i113 1
-o-work work
-tCvgOpt 0
+Z6 o-work work
+Z7 tCvgOpt 0
+n@d@m@e@m
+vDMEM_ADDJ
+R0
+!i10b 1
+!s100 VP70RlO7:U?`D`?;IJKn_2
+R1
+IK7d8UmPVkDYhRPJ`A[[Sc1
+R2
+R3
+w1633504638
+8D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v
+FD:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v
+!i122 137
+L0 1 34
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v|
+!i113 1
+R6
+R7
+n@d@m@e@m_@a@d@d@j
+vDMEM_ADDJ_tb
+!s110 1633504857
+!i10b 1
+!s100 BY0R1nAeHSLJTdeEJU=g@0
+R1
+I]@aV^^]@6X:C@RFZSdaT<1
+R2
+R3
+w1633504840
+8D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v
+FD:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v
+!i122 138
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v|
+!i113 1
+R6
+R7
+n@d@m@e@m_@a@d@d@j_tb
+vDMEM_tb
+R0
+!i10b 1
+!s100 e]TETWAbTNUN39?eCUa0c1
+R1
+IC>cD12X>EZbjfKBYjMDD^0
+R2
+R3
+w1633501973
+8D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
+FD:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
+!i122 136
+L0 2 41
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v|
+!i113 1
+R6
+R7
+n@d@m@e@m_tb
+vIMEM
+R0
+!i10b 1
+!s100 SJA0^beMQ4?GW?TP<`<DU3
+R1
+IAh7]6LF>a9F]3_ANlA7XO0
+R2
+R3
+w1633450040
+8D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v
+FD:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v
+!i122 133
+L0 7 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v|
+!i113 1
+R6
+R7
 n@i@m@e@m
+vIMEM_Test
+R0
+!i10b 1
+!s100 O8i45]j>DAn?^ZZ?@cSID3
+R1
+IQm=7WBbeO8]C[UXTm?`]Z1
+R2
+R3
+w1633449071
+8D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v
+FD:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v
+!i122 134
+L0 2 13
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v|
+!i113 1
+R6
+R7
+n@i@m@e@m_@test

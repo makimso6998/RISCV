@@ -22,7 +22,7 @@ assign		pWord = PC[19:2];
 assign		pByte = PC[1:0];
 
 initial begin
-$readmemh("H:/My Drive/BKU/HK211/[EE3043] Computer Architecture/BTL/BTL_RISCV/factorial.txt",IMEM);
+$readmemh("D:/FPGA/CompurterAchitecture/RISCV/tb/instruction.txt",IMEM);
 end
 
 always@(PC)
