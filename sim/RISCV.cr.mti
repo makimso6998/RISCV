@@ -1,9 +1,23 @@
-D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v
+D:/FPGA/CompurterAchitecture/RISCV/src/ROMDecoder.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/ROMDecoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ROMDecoder
+
+Top level modules:
+	ROMDecoder
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module IMEM
 
 Top level modules:
 	IMEM
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMEM_ADDJ_tb
+
+Top level modules:
+	DMEM_ADDJ_tb
 
 } {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -19,12 +33,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	DMEM_tb
 
-} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/ROMControl_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/ROMControl_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module DMEM
+-- Compiling module ROMControl_tb
 
 Top level modules:
-	DMEM
+	ROMControl_tb
 
 } {} {}} D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -32,5 +46,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	IMEM_Test
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMEM
+
+Top level modules:
+	DMEM
+
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/ROMControl.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/ROMControl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ROMControl
+
+Top level modules:
+	ROMControl
 
 } {} {}}

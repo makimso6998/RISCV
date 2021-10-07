@@ -1,9 +1,57 @@
-# ** Error: (vish-42) Unsupported ModelSim library format for "D:/HK211/CTMT/Project/RISCV/sim/work". (Format: 4)
-# Error opening D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
-# Path name 'D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v' doesn't exist.
-# Error opening D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
-# Path name 'D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v' doesn't exist.
-# Compile of Mux.v failed with 2 errors.
-# Compile of PC.v failed with 2 errors.
-# 2 compiles, 8 failed with 4 errors. 
-# ** Error: (vish-42) Unsupported ModelSim library format for "D:/HK211/CTMT/Project/RISCV/sim/work". (Format: 4)
+# Compile of IMEM.v was successful.
+# Compile of IMEM_tb.v was successful.
+# Compile of DMEM.v was successful.
+# Compile of DMEM_tb.v was successful.
+# Compile of DMEM_ADDJ.v was successful.
+# Compile of DMEM_ADDJ_tb.v was successful.
+# Compile of ROMControl.v was successful.
+# Compile of ROMControl_tb.v was successful.
+# Compile of ROMDecoder.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of IMEM.v was successful.
+# Compile of IMEM_tb.v was successful.
+# Compile of DMEM.v was successful.
+# Compile of DMEM_tb.v was successful.
+# Compile of DMEM_ADDJ.v was successful.
+# Compile of DMEM_ADDJ_tb.v was successful.
+# Compile of ROMControl.v was successful.
+# Compile of ROMControl_tb.v was successful.
+# Compile of ROMDecoder.v was successful.
+# Compile of ROMDecoder_tb.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.ROMDecoder_tb
+# vsim -gui work.ROMDecoder_tb 
+# Start time: 11:04:48 on Oct 07,2021
+# Loading work.ROMDecoder_tb
+# Loading work.ROMDecoder
+add wave -position insertpoint  \
+sim:/ROMDecoder_tb/Inst \
+sim:/ROMDecoder_tb/BrEq \
+sim:/ROMDecoder_tb/BrLT \
+sim:/ROMDecoder_tb/DataOut
+run
+quit -sim
+# End time: 14:59:13 on Oct 07,2021, Elapsed time: 3:54:25
+# Errors: 0, Warnings: 4
+# Compile of IMEM.v was successful.
+# Compile of IMEM_tb.v was successful.
+# Compile of DMEM.v was successful.
+# Compile of DMEM_tb.v was successful.
+# Compile of DMEM_ADDJ.v was successful.
+# Compile of DMEM_ADDJ_tb.v was successful.
+# Compile of ROMControl.v was successful.
+# Compile of ROMControl_tb.v was successful.
+# Compile of ROMDecoder.v was successful.
+# Compile of ROMDecoder_tb.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.ROMDecoder_tb
+# vsim -gui work.ROMDecoder_tb 
+# Start time: 14:59:27 on Oct 07,2021
+# Loading work.ROMDecoder_tb
+# Loading work.ROMDecoder
+add wave -position insertpoint  \
+sim:/ROMDecoder_tb/Inst \
+sim:/ROMDecoder_tb/BrEq \
+sim:/ROMDecoder_tb/BrLT \
+sim:/ROMDecoder_tb/DataOut
+run
