@@ -1029,3 +1029,20 @@ sim:/ALU_tb/DataB \
 sim:/ALU_tb/ALUSel \
 sim:/ALU_tb/DataOut
 run
+# Compile of IMEM.v was successful.
+# Compile of IMEM_tb.v was successful.
+# Compile of DMEM.v was successful.
+# Compile of DMEM_tb.v was successful.
+# Compile of DMEM_ADDJ.v was successful.
+# Compile of DMEM_ADDJ_tb.v was successful.
+# Compile of ROMControl.v was successful.
+# Compile of ROMControl_tb.v was successful.
+# Compile of ROMDecoder.v was successful.
+# Compile of ROMDecoder_tb.v was successful.
+# Compile of REGBank.v was successful.
+# Compile of REGBank_tb.v was successful with warnings.
+# Compile of ImmGen.v was successful with warnings.
+# Compile of ImmGen_tb.v was successful.
+# Compile of ALU_tb.v was successful.
+# Compile of ALU.v was successful.
+# 16 compiles, 0 failed with no errors.
