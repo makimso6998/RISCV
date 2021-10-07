@@ -1,9 +1,341 @@
-# ** Error: (vish-42) Unsupported ModelSim library format for "D:/HK211/CTMT/Project/RISCV/sim/work". (Format: 4)
-# Error opening D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
-# Path name 'D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v' doesn't exist.
-# Error opening D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
-# Path name 'D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v' doesn't exist.
-# Compile of Mux.v failed with 2 errors.
-# Compile of PC.v failed with 2 errors.
-# 2 compiles, 8 failed with 4 errors. 
-# ** Error: (vish-42) Unsupported ModelSim library format for "D:/HK211/CTMT/Project/RISCV/sim/work". (Format: 4)
+# Compile of Mux.v was successful.
+# Compile of Mux.v was successful.
+# Compile of DMEM.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Mux.v was successful.
+# Compile of DMEM.v was successful.
+# Compile of Mux_tb.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of Mux.v was successful.
+# Compile of DMEM.v was successful.
+# Compile of Mux_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.Mux_tb
+# vsim -gui work.Mux_tb 
+# Start time: 21:12:34 on Oct 07,2021
+# Loading work.Mux_tb
+# Loading work.Mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Mux_tb/mux File: D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v Line: 13
+# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v(13): [TFMPC] - Missing connection for port 'port_in_2'.
+# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v(13): [TFMPC] - Missing connection for port 'port_in_3'.
+add wave -position insertpoint  \
+sim:/Mux_tb/port_in_0 \
+sim:/Mux_tb/port_in_1 \
+sim:/Mux_tb/port_in_2 \
+sim:/Mux_tb/port_in_3 \
+sim:/Mux_tb/port_out \
+sim:/Mux_tb/sel_op \
+sim:/Mux_tb/sel_port
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 18836
+#           Attempting to use alternate WLF file "./wlftc93g03".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftc93g03
+run
+vsim -gui work.Mux_tb
+# End time: 21:17:51 on Oct 07,2021, Elapsed time: 0:05:17
+# Errors: 0, Warnings: 13
+# vsim -gui work.Mux_tb 
+# Start time: 21:17:51 on Oct 07,2021
+# Loading work.Mux_tb
+# Loading work.Mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Mux_tb/mux File: D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v Line: 13
+# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v(13): [TFMPC] - Missing connection for port 'port_in_2'.
+# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v(13): [TFMPC] - Missing connection for port 'port_in_3'.
+quit -sim
+# End time: 21:19:36 on Oct 07,2021, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 4
+# Compile of Mux.v was successful.
+# Compile of DMEM.v was successful.
+# Compile of Mux_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.Mux_tb
+# vsim -gui work.Mux_tb 
+# Start time: 21:20:03 on Oct 07,2021
+# Loading work.Mux_tb
+# Loading work.Mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Mux_tb/mux File: D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v Line: 13
+# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v(13): [TFMPC] - Missing connection for port 'port_in_2'.
+# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v(13): [TFMPC] - Missing connection for port 'port_in_3'.
+add wave -position insertpoint  \
+sim:/Mux_tb/port_in_0 \
+sim:/Mux_tb/port_in_1 \
+sim:/Mux_tb/port_in_2 \
+sim:/Mux_tb/port_in_3 \
+sim:/Mux_tb/port_out \
+sim:/Mux_tb/sel_op \
+sim:/Mux_tb/sel_port
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 18836
+#           Attempting to use alternate WLF file "./wlftywnwmb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftywnwmb
+run
+quit -sim
+# End time: 21:23:27 on Oct 07,2021, Elapsed time: 0:03:24
+# Errors: 0, Warnings: 7
+# Compile of Mux.v was successful.
+# Compile of DMEM.v was successful.
+# Compile of Mux_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.Mux_tb
+# vsim -gui work.Mux_tb 
+# Start time: 21:23:45 on Oct 07,2021
+# Loading work.Mux_tb
+# Loading work.Mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Mux_tb/mux File: D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v Line: 13
+# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v(13): [TFMPC] - Missing connection for port 'port_in_2'.
+# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/Mux_tb.v(13): [TFMPC] - Missing connection for port 'port_in_3'.
+add wave -position insertpoint  \
+sim:/Mux_tb/port_in_0 \
+sim:/Mux_tb/port_in_1 \
+sim:/Mux_tb/port_in_2 \
+sim:/Mux_tb/port_in_3 \
+sim:/Mux_tb/port_out \
+sim:/Mux_tb/sel_op \
+sim:/Mux_tb/sel_port
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 18836
+#           Attempting to use alternate WLF file "./wlft30vnyq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft30vnyq
+run
+quit -sim
+# End time: 21:48:16 on Oct 07,2021, Elapsed time: 0:24:31
+# Errors: 0, Warnings: 7
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.Mux2_tb
+# vsim -gui work.Mux2_tb 
+# Start time: 21:49:13 on Oct 07,2021
+# Loading work.Mux2_tb
+# Loading work.Mux2
+add wave -position insertpoint  \
+sim:/Mux2_tb/port_in_0 \
+sim:/Mux2_tb/port_in_1 \
+sim:/Mux2_tb/port_out \
+sim:/Mux2_tb/sel_port
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 18836
+#           Attempting to use alternate WLF file "./wlft4in5dr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4in5dr
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ps ###############
+#   Wakeup Event Array :  @ sub-iteration 0
+#     Member process: /Mux2_tb/#ALWAYS#16 @ sub-iteration 0
+#       Source: D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v:0
+#   Wakeup Event Array :  @ sub-iteration 1
+#     Member process: /Mux2_tb/#ALWAYS#16 @ sub-iteration 1
+#       Source: D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v:0
+#   Wakeup Event Array :  @ sub-iteration 2
+#     Member process: /Mux2_tb/#ALWAYS#16 @ sub-iteration 2
+#       Source: D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v:0
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ps.
+######## Additional Loop Analysis Started ##########
+####################################################
+# Simulation time has advanced while attempting to find the loop.
+# This may mean that the simulation iteration limit is set too low.
+####################################################
+##############  Autofindloop Step ##################
+#   Active process: /Mux2_tb/#IMPLICIT-WIRE(sel_port)#10
+#     Source: D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v:0
+#   Active process: /Mux2_tb/mux2/#ALWAYS#7
+#     Source: D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v:10
+#   Active process: /Mux2_tb/mux2/#IMPLICIT-WIRE(port_out)#10
+#     Source: D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v:10
+###################################################
+quit -sim
+# End time: 21:50:32 on Oct 07,2021, Elapsed time: 0:01:19
+# Errors: 1, Warnings: 8
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.Mux2_tb
+# vsim -gui work.Mux2_tb 
+# Start time: 21:50:50 on Oct 07,2021
+# Loading work.Mux2_tb
+# Loading work.Mux2
+add wave -position insertpoint  \
+sim:/Mux2_tb/port_in_0 \
+sim:/Mux2_tb/port_in_1 \
+sim:/Mux2_tb/port_out \
+sim:/Mux2_tb/sel_port
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 18836
+#           Attempting to use alternate WLF file "./wlft1wcggq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1wcggq
+run
+quit -sim
+# End time: 21:51:50 on Oct 07,2021, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 4
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.Mux2_tb
+# vsim -gui work.Mux2_tb 
+# Start time: 21:52:15 on Oct 07,2021
+# Loading work.Mux2_tb
+# Loading work.Mux2
+add wave -position insertpoint  \
+sim:/Mux2_tb/port_in_0 \
+sim:/Mux2_tb/port_in_1 \
+sim:/Mux2_tb/port_out \
+sim:/Mux2_tb/sel_port
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 18836
+#           Attempting to use alternate WLF file "./wlfthqmjgn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthqmjgn
+run
+quit -sim
+# End time: 22:03:36 on Oct 07,2021, Elapsed time: 0:11:21
+# Errors: 0, Warnings: 4
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.PC
+# vsim -gui work.PC 
+# Start time: 22:04:48 on Oct 07,2021
+# Loading work.PC
+# ** Warning: (vsim-3035) Instantiation depth of '/PC/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# ** Error: (vsim-3036) Instantiation depth of '/PC/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc' is 75. Assuming recursive instantiation.
+#    Time: 0 ps  Iteration: 0  Instance: /PC/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc/pc File: D:/HK211/CTMT/Project/RISCV/tb/PC.v
+# Error loading design
+# End time: 22:04:48 on Oct 07,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+# Load canceled
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.PC_tb
+# vsim -gui work.PC_tb 
+# Start time: 22:06:26 on Oct 07,2021
+# Loading work.PC_tb
+# Loading work.PC
+add wave -position insertpoint  \
+sim:/PC_tb/port_in \
+sim:/PC_tb/port_out
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 18836
+#           Attempting to use alternate WLF file "./wlftkx21sf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkx21sf
+run
+run
+add wave -position insertpoint  \
+sim:/PC_tb/clock
+run
+run
+quit -sim
+# End time: 22:09:00 on Oct 07,2021, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 8
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.PC_tb
+# vsim -gui work.PC_tb 
+# Start time: 22:09:14 on Oct 07,2021
+# Loading work.PC_tb
+# Loading work.PC
+add wave -position insertpoint  \
+sim:/PC_tb/clock \
+sim:/PC_tb/port_in \
+sim:/PC_tb/port_out
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 18836
+#           Attempting to use alternate WLF file "./wlft5thebq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5thebq
+run
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PC_tb
+# Loading work.PC
+run
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_tb.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PC_tb
+# Loading work.PC
+run
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_tb.v was successful.
+# Compile of branch_comp.v was successful.
+# Compile of branch_comp_tb.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_tb.v was successful.
+# Compile of branch_comp.v was successful.
+# Compile of branch_comp_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.branch_comp_tb
+# End time: 22:30:20 on Oct 07,2021, Elapsed time: 0:21:06
+# Errors: 0, Warnings: 5
+# vsim -gui work.branch_comp_tb 
+# Start time: 22:30:20 on Oct 07,2021
+# Loading work.branch_comp_tb
+# Loading work.branch_comp
+add wave -position insertpoint  \
+sim:/branch_comp_tb/A \
+sim:/branch_comp_tb/B \
+sim:/branch_comp_tb/BrEq \
+sim:/branch_comp_tb/BrLT \
+sim:/branch_comp_tb/BrLt \
+sim:/branch_comp_tb/BrUn
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 18836
+#           Attempting to use alternate WLF file "./wlftkszgqe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkszgqe
+run
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_tb.v was successful.
+# Compile of branch_comp.v was successful.
+# Compile of branch_comp_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.branch_comp_tb
+# Loading work.branch_comp
+run
