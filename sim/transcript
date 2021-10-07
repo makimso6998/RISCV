@@ -339,3 +339,55 @@ restart
 # Loading work.branch_comp_tb
 # Loading work.branch_comp
 run
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_tb.v was successful.
+# Compile of branch_comp.v was successful.
+# Compile of branch_comp_tb.v was successful.
+# Compile of add4.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_tb.v was successful.
+# Compile of branch_comp.v was successful.
+# Compile of branch_comp_tb.v was successful.
+# Compile of add4.v was successful.
+# Compile of add4_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.add4_tb
+# End time: 23:27:45 on Oct 07,2021, Elapsed time: 0:57:25
+# Errors: 0, Warnings: 5
+# vsim -gui work.add4_tb 
+# Start time: 23:27:45 on Oct 07,2021
+# Loading work.add4_tb
+# Loading work.add4
+add wave -position insertpoint  \
+sim:/add4_tb/port_in \
+sim:/add4_tb/port_out
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 18836
+#           Attempting to use alternate WLF file "./wlftr1bxtx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftr1bxtx
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of DMEM.v was successful.
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_tb.v was successful.
+# Compile of branch_comp.v was successful.
+# Compile of branch_comp_tb.v was successful.
+# Compile of add4.v was successful.
+# Compile of add4_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.add4_tb
+# Loading work.add4
+run

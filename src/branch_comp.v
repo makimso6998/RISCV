@@ -4,5 +4,5 @@
  output BrEq,BrLT;
 
 assign BrEq = (A == B);
-assign BrLT = (A < B) ;
+assign BrLT = (BrUn) ? (A < B) : (({A[31], B[31]} == 2'b10) || ((A[31] == B[31]) && (A < B)));
 endmodule 
