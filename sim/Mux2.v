@@ -5,7 +5,7 @@ module Mux2 (
     output reg [31:0] port_out
     );
     always @(*) begin
-        if (sel_port == 1) begin
+        if (sel_port) begin
             port_out <= port_in_1;
         end
         else begin

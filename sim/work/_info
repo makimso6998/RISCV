@@ -281,7 +281,7 @@ w1633449071
 8D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v
 FD:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v
 !i122 366
-Z13 L0 2 13
+L0 2 13
 R5
 r1
 !s85 0
@@ -342,121 +342,145 @@ R7
 R8
 n@imm@gen_tb
 vMux2
-R9
+Z13 !s110 1633698095
 !i10b 1
 !s100 hJjX[PLD5L7KBA1BaP0__0
 R1
-Ie^S4SA3MkM@NCm`UFmR]R2
+IZ_ZLQVP[SE_dIBc6`_gTn3
 R2
-R3
-R4
-8D:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v
-!i122 355
+Z14 dD:/HK211/CTMT/Project/RISCV/sim
+w1633617093
+8D:/HK211/CTMT/Project/RISCV/sim/Mux2.v
+FD:/HK211/CTMT/Project/RISCV/sim/Mux2.v
+!i122 399
 L0 1 15
 R5
 r1
 !s85 0
 31
-R10
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v|
+Z15 !s108 1633698095.000000
+!s107 D:/HK211/CTMT/Project/RISCV/sim/Mux2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/sim/Mux2.v|
 !i113 1
 R7
 R8
 n@mux2
 vMux2_tb
-R11
-!i10b 1
-!s100 aAg@R`S0:PMlgQBJ=3hkQ2
-R1
-IhP@b0U5c0AU:8OKVL>dLi1
-R2
-R3
-R4
-8D:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v
-!i122 368
 R13
+!i10b 1
+!s100 z^KSDlj`cL0Q@^LNbGlXd0
+R1
+I?8>[QbiEJnIHLZiUGJG?63
+R2
+R14
+w1633697172
+8D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v
+!i122 400
+L0 2 25
 R5
 r1
 !s85 0
 31
-R12
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v|
+R15
+!s107 D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v|
 !i113 1
 R7
 R8
 n@mux2_tb
 vMux4
-R9
+!s110 1633698096
 !i10b 1
 !s100 AcB`?eOL_5JK08dBczPzO1
 R1
-Ia::YWBjN:d?mSkNC[7lOX1
+IE1WdDbl9fCjzPXeUR[Zn[2
 R2
-R3
-w1633672937
-8D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v
-!i122 356
+R14
+w1633617248
+8D:/HK211/CTMT/Project/RISCV/src/Mux4.v
+FD:/HK211/CTMT/Project/RISCV/src/Mux4.v
+!i122 404
 L0 1 18
 R5
 r1
 !s85 0
 31
-R10
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v|
+R15
+!s107 D:/HK211/CTMT/Project/RISCV/src/Mux4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/Mux4.v|
 !i113 1
 R7
 R8
 n@mux4
+vMux4_tb
+R13
+!i10b 1
+!s100 lL2N=J6Mook^3YmW0MY]i0
+R1
+IK;lP=>_ahSlhd<H46ZggC3
+R2
+R14
+w1633698085
+8D:/HK211/CTMT/Project/RISCV/tb/Mux4_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/Mux4_tb.v
+!i122 403
+L0 2 29
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/HK211/CTMT/Project/RISCV/tb/Mux4_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/Mux4_tb.v|
+!i113 1
+R7
+R8
+n@mux4_tb
 vPC
-R9
+R13
 !i10b 1
 !s100 SnKLm@;]dY:lJ]j:Rd0?83
 R1
-I>G;6mPf9JN0X<PbUQKRj63
+IeaG=fNFd<<bQSkP<7^]351
 R2
-R3
-R4
-8D:/FPGA/CompurterAchitecture/RISCV/src/PC.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/PC.v
-!i122 357
+R14
+w1633612114
+8D:/HK211/CTMT/Project/RISCV/src/PC.v
+FD:/HK211/CTMT/Project/RISCV/src/PC.v
+!i122 401
 L0 1 9
 R5
 r1
 !s85 0
 31
-R10
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/PC.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/PC.v|
+R15
+!s107 D:/HK211/CTMT/Project/RISCV/src/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/PC.v|
 !i113 1
 R7
 R8
 n@p@c
 vPC_tb
-R11
+R13
 !i10b 1
-!s100 QNZj@Y>WobgJE_z_bAEeU1
+!s100 GnbzbAFX?0QjU^nWITYEa2
 R1
-IAkhbl;UE39]09YHP^alWa1
+I:QYg]^[R71TJjz:DoiPb`3
 R2
-R3
-R4
-8D:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v
-!i122 369
-L0 2 15
+R14
+w1633697338
+8D:/HK211/CTMT/Project/RISCV/tb/PC_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/PC_tb.v
+!i122 402
+L0 2 18
 R5
 r1
 !s85 0
 31
-R12
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v|
+R15
+!s107 D:/HK211/CTMT/Project/RISCV/tb/PC_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/PC_tb.v|
 !i113 1
 R7
 R8
