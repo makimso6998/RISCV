@@ -1,150 +1,47 @@
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v failed with 2 errors.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 1 failed with 2 errors.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-vsim -gui work.ALU_tb
-# vsim -gui work.ALU_tb 
-# Start time: 13:36:11 on Oct 08,2021
-# Loading work.ALU_tb
+vsim -gui work.RISCV_tb
+# vsim -gui work.RISCV_tb 
+# Start time: 20:18:53 on Oct 08,2021
+# Loading work.RISCV_tb
+# Loading work.Mux2
+# Loading work.PC
+# Loading work.add4
+# Loading work.IMEM
+# Loading work.REGBank
+# Loading work.ImmGen
+# Loading work.ROMDecoder
+# Loading work.branch_comp
 # Loading work.ALU
+# Loading work.DMEM
+# Loading work.DMEM_ADDJ
+# Loading work.Mux4
+# Loading work.ROMControl
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 108
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(112): [TFMPC] - Missing connection for port 'port_in_3'.
+run
 add wave -position insertpoint  \
-sim:/ALU_tb/DataA \
-sim:/ALU_tb/DataB \
-sim:/ALU_tb/ALUSel \
-sim:/ALU_tb/DataOut
-run
-run
-run
+sim:/RISCV_tb/alu_1/DataA \
+sim:/RISCV_tb/alu_1/DataB \
+sim:/RISCV_tb/alu_1/ALUSel \
+sim:/RISCV_tb/alu_1/DataOut
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 6324
+#           Attempting to use alternate WLF file "./wlftcw5des".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftcw5des
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run
-restart
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 108
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(112): [TFMPC] - Missing connection for port 'port_in_3'.
 run
 # Compile of add4.v was successful.
 # Compile of ALU.v was successful.
@@ -171,234 +68,86 @@ run
 # Compile of REGBank_tb.v was successful with warnings.
 # Compile of ROMControl_tb.v was successful.
 # Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
+# Compile of RISCV_tb.v was successful.
+# 26 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ALU_tb
+# Loading work.RISCV_tb
+# Loading work.Mux2
+# Loading work.PC
+# Loading work.add4
+# Loading work.IMEM
+# Loading work.REGBank
+# Loading work.ImmGen
+# Loading work.ROMDecoder
+# Loading work.branch_comp
 # Loading work.ALU
-run
-# Compile of add4.v was successful.
-# Compile of ALU.v failed with 1 errors.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 1 failed with 1 error.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ALU_tb
-# Loading work.ALU
-run
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ALU_tb
-# Loading work.ALU
-run
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
+# Loading work.DMEM
+# Loading work.DMEM_ADDJ
+# Loading work.Mux4
+# Loading work.ROMControl
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 108
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(112): [TFMPC] - Missing connection for port 'port_in_3'.
 run
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ALU_tb
-# Loading work.ALU
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 108
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(112): [TFMPC] - Missing connection for port 'port_in_3'.
 run
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/RISCV_tb/dmem_1/Addr \
+sim:/RISCV_tb/dmem_1/DataW \
+sim:/RISCV_tb/dmem_1/LenSel \
+sim:/RISCV_tb/dmem_1/clk \
+sim:/RISCV_tb/dmem_1/MemRW \
+sim:/RISCV_tb/dmem_1/DataR \
+sim:/RISCV_tb/dmem_1/DMEM
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ALU_tb
-# Loading work.ALU
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 108
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(112): [TFMPC] - Missing connection for port 'port_in_3'.
 run
 quit -sim
-# End time: 14:15:10 on Oct 08,2021, Elapsed time: 0:38:59
-# Errors: 0, Warnings: 1
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
+# End time: 20:47:48 on Oct 08,2021, Elapsed time: 0:28:55
+# Errors: 0, Warnings: 5
 # Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-vsim -gui work.branch_comp_tb
-# vsim -gui work.branch_comp_tb 
-# Start time: 14:15:45 on Oct 08,2021
-# Loading work.branch_comp_tb
-# Loading work.branch_comp
+vsim -gui work.DMEM_tb
+# vsim -gui work.DMEM_tb 
+# Start time: 20:48:04 on Oct 08,2021
+# Loading work.DMEM_tb
+# Loading work.DMEM
 add wave -position insertpoint  \
-sim:/branch_comp_tb/BrEq \
-sim:/branch_comp_tb/BrLt \
-sim:/branch_comp_tb/BrUn \
-sim:/branch_comp_tb/A \
-sim:/branch_comp_tb/B \
-sim:/branch_comp_tb/BrLT
+sim:/DMEM_tb/Addr \
+sim:/DMEM_tb/DataW \
+sim:/DMEM_tb/LenSel \
+sim:/DMEM_tb/clk \
+sim:/DMEM_tb/MemRW \
+sim:/DMEM_tb/DataR
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 6324
+#           Attempting to use alternate WLF file "./wlftt98kyg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftt98kyg
 run
+# Compile of DMEM_tb.v was successful.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.DMEM_tb
 run
 # Compile of add4.v was successful.
 # Compile of ALU.v was successful.
@@ -425,15 +174,250 @@ run
 # Compile of REGBank_tb.v was successful with warnings.
 # Compile of ROMControl_tb.v was successful.
 # Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
+# Compile of RISCV_tb.v was successful.
+# 26 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.branch_comp_tb
-# Loading work.branch_comp
+# Loading work.DMEM_tb
+# Loading work.DMEM
+run
+# Compile of DMEM_tb.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.DMEM_tb
+run
+# Compile of DMEM.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.DMEM
+run
+# WARNING: No extended dataflow license exists
+# Compile of DMEM_tb.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.DMEM_tb
+run
+# Compile of DMEM.v failed with 1 errors.
+# Compile of DMEM.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.DMEM
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'DMEM' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /DMEM_tb/dmem1 File: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
+# Compile of DMEM.v was successful.
+quit -sim
+# End time: 21:02:11 on Oct 08,2021, Elapsed time: 0:14:07
+# Errors: 1, Warnings: 2
+vsim -gui work.DMEM_tb
+# vsim -gui work.DMEM_tb 
+# Start time: 21:02:26 on Oct 08,2021
+# Loading work.DMEM_tb
+# Loading work.DMEM
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 6324
+#           Attempting to use alternate WLF file "./wlftjktg4j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjktg4j
+add wave -position insertpoint  \
+sim:/DMEM_tb/Addr \
+sim:/DMEM_tb/DataW \
+sim:/DMEM_tb/LenSel \
+sim:/DMEM_tb/clk \
+sim:/DMEM_tb/MemRW \
+sim:/DMEM_tb/DataR
+run
+# Compile of DMEM.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.DMEM
+run
+# Compile of DMEM.v was successful.
+# Compile of ROMControl_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ROMControl_tb.v was successful.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.DMEM
+vsim -gui work.ROMControl_tb
+# End time: 21:06:52 on Oct 08,2021, Elapsed time: 0:04:26
+# Errors: 0, Warnings: 1
+# vsim -gui work.ROMControl_tb 
+# Start time: 21:06:52 on Oct 08,2021
+# Loading work.ROMControl_tb
+# Loading work.ROMControl
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/ROMControl_tb/Addr \
+sim:/ROMControl_tb/Data \
+sim:/ROMControl_tb/DataIn
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 6324
+#           Attempting to use alternate WLF file "./wlftan6bk1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftan6bk1
+run
+# Break key hit
+# Simulation stop requested.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of ROMControl.v was successful.
+# Compile of ROMControl_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+run
+# Break key hit
+# Break in Module ROMControl_tb at D:/FPGA/CompurterAchitecture/RISCV/tb/ROMControl_tb.v line 15
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ROMControl_tb
+# Loading work.ROMControl
+run
+restart
 run
 quit -sim
-# End time: 14:21:28 on Oct 08,2021, Elapsed time: 0:05:43
+# End time: 21:09:48 on Oct 08,2021, Elapsed time: 0:02:56
 # Errors: 0, Warnings: 1
+vsim -gui work.RISCV_tb
+# vsim -gui work.RISCV_tb 
+# Start time: 21:09:59 on Oct 08,2021
+# Loading work.RISCV_tb
+# Loading work.Mux2
+# Loading work.PC
+# Loading work.add4
+# Loading work.IMEM
+# Loading work.REGBank
+# Loading work.ImmGen
+# Loading work.ROMDecoder
+# Loading work.branch_comp
+# Loading work.ALU
+# Loading work.DMEM
+# Loading work.DMEM_ADDJ
+# Loading work.Mux4
+# Loading work.ROMControl
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 108
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(112): [TFMPC] - Missing connection for port 'port_in_3'.
+add wave -position insertpoint  \
+sim:/RISCV_tb/dmem_1/Addr \
+sim:/RISCV_tb/dmem_1/DataW \
+sim:/RISCV_tb/dmem_1/LenSel \
+sim:/RISCV_tb/dmem_1/clk \
+sim:/RISCV_tb/dmem_1/MemRW \
+sim:/RISCV_tb/dmem_1/DataR \
+sim:/RISCV_tb/dmem_1/DMEM
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sangt  Hostname: DEVELOPER  ProcessID: 6324
+#           Attempting to use alternate WLF file "./wlftbtkw64".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbtkw64
+run
+add wave -position insertpoint  \
+sim:/RISCV_tb/alu_1/DataA \
+sim:/RISCV_tb/alu_1/DataB \
+sim:/RISCV_tb/alu_1/ALUSel \
+sim:/RISCV_tb/alu_1/DataOut
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 108
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 112
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(112): [TFMPC] - Missing connection for port 'port_in_3'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of RISCV_tb.v failed with 1 errors.
+# A time value could not be extracted from the current line
+# Compile of RISCV_tb.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.RISCV_tb
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 109
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of RISCV_tb.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.RISCV_tb
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 109
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 109
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 109
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# WARNING: No extended dataflow license exists
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 109
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 109
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
 # Compile of add4.v was successful.
 # Compile of ALU.v was successful.
 # Compile of branch_comp.v was successful.
@@ -459,16 +443,62 @@ quit -sim
 # Compile of REGBank_tb.v was successful with warnings.
 # Compile of ROMControl_tb.v was successful.
 # Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-vsim -gui work.branch_comp_tb
-# vsim -gui work.branch_comp_tb 
-# Start time: 14:21:44 on Oct 08,2021
-# Loading work.branch_comp_tb
+# Compile of RISCV_tb.v was successful.
+# 26 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.RISCV_tb
+# Loading work.Mux2
+# Loading work.PC
+# Loading work.add4
+# Loading work.IMEM
+# Loading work.REGBank
+# Loading work.ImmGen
+# Loading work.ROMDecoder
 # Loading work.branch_comp
-add wave -position insertpoint  \
-sim:/branch_comp_tb/BrEq \
-sim:/branch_comp_tb/BrLT \
-sim:/branch_comp_tb/BrUn \
-sim:/branch_comp_tb/A \
-sim:/branch_comp_tb/B
+# Loading work.ALU
+# Loading work.DMEM
+# Loading work.DMEM_ADDJ
+# Loading work.Mux4
+# Loading work.ROMControl
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 109
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
 run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 109
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/RISCV_tb/dataadj_1/DataIn \
+sim:/RISCV_tb/dataadj_1/FormatSel \
+sim:/RISCV_tb/dataadj_1/DataOut
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 109
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v Line: 113
+# ** Warning: (vsim-3722) D:/FPGA/CompurterAchitecture/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 

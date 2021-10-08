@@ -22,18 +22,19 @@ module DMEM_tb;
         #0  LenSel = 2'b00;
             DataW = 32'h1234_5678;
             Addr = 32'h0000_0000;
-            MemRW = 1'b1;
+            MemRW = 1'b0;
             clk = 1'b0;
-        #25 Addr = 32'h0000_0002;
+        #10 MemRW = 1'b1;
+            Addr = 32'h0000_0002;
             LenSel = 2'b01;
-        #25 Addr = 32'h0000_0004;
-            LenSel = 2'b10;
-        #25 MemRW = 1'b0;
+        #10 Addr = 32'h0000_0004;
+            LenSel = 2'b11;
+        #10 MemRW = 1'b0;
             Addr = 32'h0000_0000;
-        #25 Addr = 32'h0000_0002;
-        #25 Addr = 32'h0000_0004;
+        #10 Addr = 32'h0000_0002;
+        #10 Addr = 32'h0000_0004;
         ///Not Enable Write Test
-        #25 Addr = 32'h0000_0000;
+        #10 Addr = 32'h0000_0000;
             
     end
     always begin
