@@ -99,6 +99,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	ROMControl_tb
 
+} {} {}} D:/FPGA/CompurterAchitecture/RISCV/sim/ALU.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/sim/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
 } {} {}} D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v {1 {vlog -work work -stats=none D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module DMEM

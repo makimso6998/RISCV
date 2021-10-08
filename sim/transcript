@@ -1046,3 +1046,5 @@ run
 # Compile of ALU_tb.v was successful.
 # Compile of ALU.v was successful.
 # 16 compiles, 0 failed with no errors.
+# End time: 23:54:23 on Oct 07,2021, Elapsed time: 0:18:25
+# Errors: 0, Warnings: 15
