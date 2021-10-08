@@ -1,7 +1,6 @@
-`timescale 1ns/1ps
 module branch_comp_tb;
 wire BrEq;
-wire BrLt;
+wire BrLT;
 reg BrUn;
 reg [31:0] A;
 reg [31:0] B;
@@ -12,8 +11,19 @@ branch_comp branch_comp (.BrEq(BrEq),
                         .A(A),
                         .B(B));
 initial begin
-    #10 A = 32'h0000_1111;
-    #10 B = 32'h1000_1111;
-    #10 BrUn = 1'b1;
+    #0 BrUn = 1'b0; //Sign compare
+        A = 32'd100;
+        B = 32'd5000;
+    #50 A = -32'd5000;
+        B = -32'd5001;
+    #50 A = -32'd1234;
+        B = -32'd1234;
+    #200 BrUn = 1'b1; //UnSign compare
+        A = 32'd100;
+        B = 32'd5000;
+    #50 A = -32'd5000;
+        B = -32'd5001;
+    #50 A = -32'd1234;
+        B = -32'd1234;
 end
 endmodule

@@ -22,7 +22,7 @@ module ALU (
             4'b0100: DataOut = (DataA < DataB) ? 32'd1: 32'd0;  //SLTU
             4'b0101: DataOut = DataA ^ DataB;   //XOR
             4'b0110: DataOut = DataA >> DataB;  //SRL
-            4'b0111: DataOut = DataA >>> DataB; //SRA
+            4'b0111: DataOut = $signed(DataA) >>> DataB; //SRA
             4'b1000: DataOut = DataA | DataB;   //OR
             4'b1001: DataOut = DataA & DataB;   //AND
             4'b1110: DataOut = DataA;           //SEL A
