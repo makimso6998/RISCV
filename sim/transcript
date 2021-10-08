@@ -1,474 +1,125 @@
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
+# 0 compiles, 25 failed with no errors.
 # Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
 # Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v failed with 2 errors.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 1 failed with 2 errors.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-vsim -gui work.ALU_tb
-# vsim -gui work.ALU_tb 
-# Start time: 13:36:11 on Oct 08,2021
-# Loading work.ALU_tb
-# Loading work.ALU
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.Mux2_tb
+# vsim -gui work.Mux2_tb 
+# Start time: 19:36:30 on Oct 08,2021
+# Loading work.Mux2_tb
+# Loading work.Mux2
 add wave -position insertpoint  \
-sim:/ALU_tb/DataA \
-sim:/ALU_tb/DataB \
-sim:/ALU_tb/ALUSel \
-sim:/ALU_tb/DataOut
+sim:/Mux2_tb/port_in_0 \
+sim:/Mux2_tb/port_in_1 \
+sim:/Mux2_tb/port_out \
+sim:/Mux2_tb/sel_port
 run
-run
-run
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Mux2_tb
+# Loading work.Mux2
 run
-restart
-run
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
 # Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
 # Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
+# 2 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ALU_tb
-# Loading work.ALU
+# Loading work.Mux2_tb
+# Loading work.Mux2
 run
-# Compile of add4.v was successful.
-# Compile of ALU.v failed with 1 errors.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
 # Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
 # Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 1 failed with 1 error.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
+# 2 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ALU_tb
-# Loading work.ALU
+# Loading work.Mux2_tb
+# Loading work.Mux2
 run
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
 # Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
 # Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
+# 2 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ALU_tb
-# Loading work.ALU
+# Loading work.Mux2_tb
+# Loading work.Mux2
 run
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
 # Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
 # Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-run
+# 2 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ALU_tb
-# Loading work.ALU
+# Loading work.Mux2_tb
+# Loading work.Mux2
 run
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
 # Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
 # Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
+# 2 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ALU_tb
-# Loading work.ALU
+# Loading work.Mux2_tb
+# Loading work.Mux2
 run
-quit -sim
-# End time: 14:15:10 on Oct 08,2021, Elapsed time: 0:38:59
-# Errors: 0, Warnings: 1
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
 # Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
 # Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Mux2_tb
+# Loading work.Mux2
+run
 # Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
 # Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
 # Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-vsim -gui work.branch_comp_tb
-# vsim -gui work.branch_comp_tb 
-# Start time: 14:15:45 on Oct 08,2021
-# Loading work.branch_comp_tb
-# Loading work.branch_comp
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.PC_tb
+# End time: 19:49:47 on Oct 08,2021, Elapsed time: 0:13:17
+# Errors: 0, Warnings: 4
+# vsim -gui work.PC_tb 
+# Start time: 19:49:47 on Oct 08,2021
+# Loading work.PC_tb
+# Loading work.PC
 add wave -position insertpoint  \
-sim:/branch_comp_tb/BrEq \
-sim:/branch_comp_tb/BrLt \
-sim:/branch_comp_tb/BrUn \
-sim:/branch_comp_tb/A \
-sim:/branch_comp_tb/B \
-sim:/branch_comp_tb/BrLT
+sim:/PC_tb/clock \
+sim:/PC_tb/port_in \
+sim:/PC_tb/port_out
 run
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
 # Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
 # Compile of Mux2_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.branch_comp_tb
-# Loading work.branch_comp
-run
-quit -sim
-# End time: 14:21:28 on Oct 08,2021, Elapsed time: 0:05:43
-# Errors: 0, Warnings: 1
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
 # Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
 # Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 25 compiles, 0 failed with no errors.
-vsim -gui work.branch_comp_tb
-# vsim -gui work.branch_comp_tb 
-# Start time: 14:21:44 on Oct 08,2021
-# Loading work.branch_comp_tb
-# Loading work.branch_comp
+# Compile of Mux4_tb.v was successful.
+# Compile of Mux4.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.Mux4_tb
+# End time: 19:57:26 on Oct 08,2021, Elapsed time: 0:07:39
+# Errors: 0, Warnings: 4
+# vsim -gui work.Mux4_tb 
+# Start time: 19:57:26 on Oct 08,2021
+# Loading work.Mux4_tb
+# Loading work.Mux4
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'sel_port'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/Mux4.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Mux4_tb/mux4 File: D:/HK211/CTMT/Project/RISCV/tb/Mux4_tb.v Line: 10
 add wave -position insertpoint  \
-sim:/branch_comp_tb/BrEq \
-sim:/branch_comp_tb/BrLT \
-sim:/branch_comp_tb/BrUn \
-sim:/branch_comp_tb/A \
-sim:/branch_comp_tb/B
+sim:/Mux4_tb/port_in_0 \
+sim:/Mux4_tb/port_in_1 \
+sim:/Mux4_tb/port_in_2 \
+sim:/Mux4_tb/port_in_3 \
+sim:/Mux4_tb/port_out \
+sim:/Mux4_tb/sel_port
+run
+run
+# Compile of Mux2.v was successful.
+# Compile of Mux2_tb.v was successful.
+# Compile of PC.v was successful.
+# Compile of PC_tb.v was successful.
+# Compile of Mux4_tb.v was successful.
+# Compile of Mux4.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Mux4_tb
+# Loading work.Mux4
 run
