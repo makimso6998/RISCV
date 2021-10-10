@@ -86,7 +86,7 @@ module RISCV_tb;
     //Mux 2 to 1 at A gate of ALU
     Mux2 mux2_2 (.sel_port(aSel),
                  .port_in_0(dataA),
-                 .port_in_1(pc4),
+                 .port_in_1(pc),
                  .port_out(mux2aluA));
     //Mux 2 to 1 at B gate of ALU
     Mux2 mux2_3 (.sel_port(bSel),

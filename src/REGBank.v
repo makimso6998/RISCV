@@ -31,7 +31,14 @@ module REGBank (
     assign DataA = REG[AddrA];
     assign DataB = REG[AddrB];
     
-/****************** Always function ******************/    
+/****************** Always function ******************/  
+    integer i;
+    initial begin
+        for (i = 0; i < NUM_REG_BANK; i = i + 1) begin
+            REG[i] = 32'h0;
+        end
+    end
+
     always @(posedge clk ) begin
         if (RegWEn == 1'b1) begin
             if (AddrD != 5'h00) begin

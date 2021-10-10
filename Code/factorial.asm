@@ -1,3 +1,5 @@
+addi t1, zero, 10
+sw t1, 40(zero)
 lw	a0,40(zero)
 addi	a1,zero,1
 addi	a2,zero,1

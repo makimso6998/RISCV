@@ -25,7 +25,7 @@ module ALU (
             4'b0111: DataOut = $signed(DataA) >>> DataB; //SRA
             4'b1000: DataOut = DataA | DataB;   //OR
             4'b1001: DataOut = DataA & DataB;   //AND
-            4'b1110: DataOut = DataA;           //SEL A
+            4'b1110: DataOut = DataA + DataB + 32'd4;           //A + B + 4
             4'b1111: DataOut = DataB;           //SEL B
             default: ;
         endcase

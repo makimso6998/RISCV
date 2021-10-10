@@ -1,0 +1,70 @@
+# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
+vsim -gui work.RISCV_tb
+# vsim -gui work.RISCV_tb 
+# Start time: 18:45:01 on Oct 10,2021
+# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
+# Loading work.RISCV_tb
+# Loading work.Mux2
+# Loading work.PC
+# Loading work.add4
+# Loading work.IMEM
+# Loading work.REGBank
+# Loading work.ImmGen
+# Loading work.ROMDecoder
+# Loading work.branch_comp
+# Loading work.ALU
+# Loading work.DMEM
+# Loading work.DMEM_ADDJ
+# Loading work.Mux4
+# Loading work.ROMControl
+# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
+add wave -position insertpoint  \
+sim:/RISCV_tb/pc_1/port_in \
+sim:/RISCV_tb/pc_1/clock \
+sim:/RISCV_tb/pc_1/port_out
+add wave -position insertpoint  \
+sim:/RISCV_tb/alu_1/DataA \
+sim:/RISCV_tb/alu_1/DataB \
+sim:/RISCV_tb/alu_1/ALUSel \
+sim:/RISCV_tb/alu_1/DataOut
+run
+restart
+# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
+run
+restart
+# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
+run
+restart
+# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
+run
+# Compile of DMEM.v was successful.
+# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.DMEM
+run
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/RISCV_tb/dmem_1/DMEM
+add wave -position insertpoint  \
+sim:/RISCV_tb/regb_1/REG
+restart
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+restart
+run
+run
+run
