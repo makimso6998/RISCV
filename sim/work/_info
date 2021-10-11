@@ -8,624 +8,897 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/intelFPGA_lite/20.1
-vadd4
-Z0 !s110 1633677692
-!i10b 1
-!s100 AVi8]^@OEA_zC3Z4:UYA]1
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IS_Q<oXQo_>InMRY9ZM9Lm3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dD:/FPGA/CompurterAchitecture/RISCV/sim
-Z4 w1633672936
-8D:/FPGA/CompurterAchitecture/RISCV/src/add4.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/add4.v
-!i122 348
-L0 1 7
-Z5 OV;L;2020.1;71
-r1
-!s85 0
-31
-Z6 !s108 1633677692.000000
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/add4.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/add4.v|
-!i113 1
-Z7 o-work work
-Z8 tCvgOpt 0
-vadd4_tb
-Z9 !s110 1633677693
-!i10b 1
-!s100 <c;CNb6EeT1]Y`fDk7a<T0
-R1
-I@<k:8OMn0dL`D8WI;8]]M3
-R2
-R3
-R4
-8D:/FPGA/CompurterAchitecture/RISCV/tb/add4_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/add4_tb.v
-!i122 361
-L0 2 8
-R5
-r1
-!s85 0
-31
-Z10 !s108 1633677693.000000
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/add4_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/add4_tb.v|
-!i113 1
-R7
-R8
-vALU
+Z0 dC:/intelFPGA_lite/20.1
+<<<<<<< HEAD
+Z1 !s108 1633705554.000000
+!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v|
+Z2 =======
+Z3 !s108 1633698095.000000
+Z4 !s107 D:/HK211/CTMT/Project/RISCV/tb/PC_tb.v|
+Z5 !s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/PC_tb.v|
 R0
-!i10b 1
-!s100 ;ooN[fLa0dI<4<h_F99YS0
-R1
-I2:[>3;DCHM6HkR@j1=:QM3
+<<<<<<< HEAD
+Z6 dD:/FPGA/CompurterAchitecture/RISCV/sim
+Z7 w1633672936
+8D:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v
+FD:/FPGA/CompurterAchitecture/RISCV/tb/PC_tb.v
+!i122 717
+L0 2 15
 R2
-R3
-w1633676791
-8D:/FPGA/CompurterAchitecture/RISCV/src/ALU.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/ALU.v
-!i122 349
-L0 1 33
-R5
-r1
-!s85 0
-31
-R6
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/ALU.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/ALU.v|
-!i113 1
-R7
+Z8 !s110 1633705555
+Z9 w1633697338
+Z10 8D:/HK211/CTMT/Project/RISCV/tb/PC_tb.v
+Z11 FD:/HK211/CTMT/Project/RISCV/tb/PC_tb.v
+!i122 402
+Z12 L0 2 18
+<<<<<<< HEAD
 R8
-n@a@l@u
-vALU_tb
-R9
-!i10b 1
-!s100 MOIediAUL?=HUkee3m<Dg3
-R1
-InkYFg2EkDQ@AS@HDeYk8:2
 R2
-R3
-w1633674886
-8D:/FPGA/CompurterAchitecture/RISCV/tb/ALU_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/ALU_tb.v
-!i122 362
-L0 1 65
-R5
-r1
-!s85 0
-31
-R10
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/ALU_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/ALU_tb.v|
-!i113 1
-R7
-R8
-n@a@l@u_tb
-vbranch_comp
-R0
-!i10b 1
-!s100 KLI<H?Bz9gQbLgMVH5<fg2
-R1
-I]Pf_:T;aeaUfjkKIz`<1<2
-R2
-R3
-w1633677457
-8D:/FPGA/CompurterAchitecture/RISCV/src/branch_comp.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/branch_comp.v
-!i122 350
-L0 1 8
-R5
-r1
-!s85 0
-31
-R6
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/branch_comp.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/branch_comp.v|
-!i113 1
-R7
-R8
-vbranch_comp_tb
-R9
-!i10b 1
-!s100 @P?45@R`?f=TN6Agc>_SC3
-R1
-I7FkPcKHQk7b52`[h0V]bX1
-R2
-R3
-w1633677682
-8D:/FPGA/CompurterAchitecture/RISCV/tb/branch_comp_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/branch_comp_tb.v
-!i122 363
-L0 1 29
-R5
-r1
-!s85 0
-31
-R10
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/branch_comp_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/branch_comp_tb.v|
-!i113 1
-R7
-R8
-vDMEM
-R0
-!i10b 1
-!s100 4E7f>9AdBVnN:1XJc5Dnb2
-R1
-IL4XQ1LP7;YWI@<XVd=d^^0
-R2
-R3
-w1633501708
-8D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v
-!i122 351
-L0 1 37
-R5
-r1
-!s85 0
-31
-R6
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/DMEM.v|
-!i113 1
-R7
-R8
-n@d@m@e@m
-vDMEM_ADDJ
-R0
-!i10b 1
-!s100 VP70RlO7:U?`D`?;IJKn_2
-R1
-IK7d8UmPVkDYhRPJ`A[[Sc1
-R2
-R3
-w1633504638
-8D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v
-!i122 352
-L0 1 34
-R5
-r1
-!s85 0
-31
-R6
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/DMEM_ADDJ.v|
-!i113 1
-R7
-R8
-n@d@m@e@m_@a@d@d@j
-vDMEM_ADDJ_tb
-Z11 !s110 1633677694
-!i10b 1
-!s100 BY0R1nAeHSLJTdeEJU=g@0
-R1
-I]@aV^^]@6X:C@RFZSdaT<1
-R2
-R3
-w1633505018
-8D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v
-!i122 364
-L0 1 30
-R5
-r1
-!s85 0
-31
-R10
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_ADDJ_tb.v|
-!i113 1
-R7
-R8
-n@d@m@e@m_@a@d@d@j_tb
-vDMEM_tb
-R11
-!i10b 1
-!s100 e]TETWAbTNUN39?eCUa0c1
-R1
-IC>cD12X>EZbjfKBYjMDD^0
-R2
-R3
-w1633501973
-8D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v
-!i122 365
-L0 2 41
-R5
-r1
-!s85 0
-31
-Z12 !s108 1633677694.000000
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/DMEM_tb.v|
-!i113 1
-R7
-R8
-n@d@m@e@m_tb
-vIMEM
-R0
-!i10b 1
-!s100 SJA0^beMQ4?GW?TP<`<DU3
-R1
-IAh7]6LF>a9F]3_ANlA7XO0
-R2
-R3
-w1633525730
-8D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v
-!i122 353
-L0 7 30
-R5
-r1
-!s85 0
-31
-R6
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/IMEM.v|
-!i113 1
-R7
-R8
-n@i@m@e@m
-vIMEM_Test
-R11
-!i10b 1
-!s100 O8i45]j>DAn?^ZZ?@cSID3
-R1
-IQm=7WBbeO8]C[UXTm?`]Z1
-R2
-R3
-w1633449071
-8D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v
-!i122 366
-L0 2 13
-R5
-r1
-!s85 0
-31
-R12
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v|
-!i113 1
-R7
-R8
-n@i@m@e@m_@test
-vImmGen
-R0
-!i10b 1
-!s100 ^9=mXnRG;IZ4AoK3hWKki1
-R1
-Ig2]OZRYkIAF1OK74JV<^Q3
-R2
-R3
-w1633620500
-8D:/FPGA/CompurterAchitecture/RISCV/src/ImmGen.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/ImmGen.v
-!i122 354
-L0 1 27
-R5
-r1
-!s85 0
-31
-R6
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/ImmGen.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/ImmGen.v|
-!i113 1
-R7
-R8
-n@imm@gen
-vImmGen_tb
-R11
-!i10b 1
-!s100 aDIWfmRcT7Q8XailNCfc83
-R1
-IQRO1ae1<J4EVY[SK5hYmB2
-R2
-R3
-w1633619992
-8D:/FPGA/CompurterAchitecture/RISCV/tb/ImmGen_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/ImmGen_tb.v
-!i122 367
-L0 1 43
-R5
-r1
-!s85 0
-31
-R12
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/ImmGen_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/ImmGen_tb.v|
-!i113 1
-R7
-R8
-n@imm@gen_tb
-vMux2
 Z13 !s110 1633698095
-!i10b 1
-!s100 hJjX[PLD5L7KBA1BaP0__0
-R1
-IZ_ZLQVP[SE_dIBc6`_gTn3
+R0
+<<<<<<< HEAD
+Z14 !s108 1633705553.000000
+!s107 D:/FPGA/CompurterAchitecture/RISCV/src/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/PC.v|
 R2
-Z14 dD:/HK211/CTMT/Project/RISCV/sim
+R3
+Z15 !s107 D:/HK211/CTMT/Project/RISCV/src/PC.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/PC.v|
+R0
+<<<<<<< HEAD
+Io@nHVR]ThKh<3<>dV5QAM0
+Z17 VDg1SIo80bB@j0V0VzS_@n1
+R6
+w1633697907
+8D:/FPGA/CompurterAchitecture/RISCV/src/PC.v
+FD:/FPGA/CompurterAchitecture/RISCV/src/PC.v
+!i122 705
+Z18 L0 1 12
+R2
+IeaG=fNFd<<bQSkP<7^]351
+R17
+Z19 dD:/HK211/CTMT/Project/RISCV/sim
+w1633612114
+Z20 8D:/HK211/CTMT/Project/RISCV/src/PC.v
+Z21 FD:/HK211/CTMT/Project/RISCV/src/PC.v
+!i122 401
+L0 1 9
+<<<<<<< HEAD
+Z22 !s110 1633705553
+R2
+R13
+R0
+<<<<<<< HEAD
+R14
+!s107 D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v|
+R2
+R3
+Z23 !s107 D:/HK211/CTMT/Project/RISCV/src/Mux4.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/Mux4.v|
+R0
+<<<<<<< HEAD
+R6
+w1633672937
+8D:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v
+FD:/FPGA/CompurterAchitecture/RISCV/src/Mux4.v
+!i122 704
+R2
+R19
+Z25 w1633617248
+Z26 8D:/HK211/CTMT/Project/RISCV/src/Mux4.v
+Z27 FD:/HK211/CTMT/Project/RISCV/src/Mux4.v
+!i122 404
+<<<<<<< HEAD
+R22
+R2
+!s110 1633698096
+R0
+<<<<<<< HEAD
+R1
+!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v|
+R2
+R3
+Z28 !s107 D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v|
+Z29 !s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v|
+R0
+<<<<<<< HEAD
+R6
+R7
+8D:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v
+FD:/FPGA/CompurterAchitecture/RISCV/tb/Mux2_tb.v
+!i122 716
+R13
+R2
+R19
+Z30 w1633697172
+Z31 8D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v
+Z32 FD:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v
+!i122 400
+Z33 L0 2 25
+<<<<<<< HEAD
+!s110 1633705554
+R2
+R13
+R0
+<<<<<<< HEAD
+R14
+!s107 D:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v|
+R2
+R3
+!s107 D:/HK211/CTMT/Project/RISCV/sim/Mux2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/sim/Mux2.v|
+R0
+<<<<<<< HEAD
+R6
+R7
+8D:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v
+FD:/FPGA/CompurterAchitecture/RISCV/src/Mux2.v
+!i122 703
+R2
+R19
 w1633617093
 8D:/HK211/CTMT/Project/RISCV/sim/Mux2.v
 FD:/HK211/CTMT/Project/RISCV/sim/Mux2.v
 !i122 399
-L0 1 15
-R5
-r1
-!s85 0
-31
-Z15 !s108 1633698095.000000
-!s107 D:/HK211/CTMT/Project/RISCV/sim/Mux2.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/sim/Mux2.v|
-!i113 1
-R7
-R8
-n@mux2
-vMux2_tb
+<<<<<<< HEAD
+R22
+R2
 R13
-!i10b 1
-!s100 z^KSDlj`cL0Q@^LNbGlXd0
-R1
-I?8>[QbiEJnIHLZiUGJG?63
+R0
+<<<<<<< HEAD
+!i122 714
+Z34 L0 2 13
 R2
-R14
-w1633697172
-8D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v
-FD:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v
-!i122 400
-L0 2 25
-R5
+!i122 366
+R34
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+!i113 1
+Z35 o-work work
+Z36 tCvgOpt 0
+n@p@c_tb
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+Z37 OV;L;2020.1;71
 r1
 !s85 0
 31
-R15
-!s107 D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/Mux2_tb.v|
-!i113 1
-R7
-R8
-n@mux2_tb
-vMux4
-!s110 1633698096
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
 !i10b 1
-!s100 AcB`?eOL_5JK08dBczPzO1
-R1
-IE1WdDbl9fCjzPXeUR[Zn[2
-R2
-R14
-w1633617248
-8D:/HK211/CTMT/Project/RISCV/src/Mux4.v
-FD:/HK211/CTMT/Project/RISCV/src/Mux4.v
-!i122 404
-L0 1 18
-R5
+Z38 !s100 GnbzbAFX?0QjU^nWITYEa2
+Z39 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z40 I:QYg]^[R71TJjz:DoiPb`3
+R17
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+!i113 1
+R35
+R36
+n@p@c
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+R37
 r1
 !s85 0
 31
-R15
-!s107 D:/HK211/CTMT/Project/RISCV/src/Mux4.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/Mux4.v|
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+!i10b 1
+Z41 !s100 T>BhhAc9aUNA;2aCF7]Si3
+R39
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
 !i113 1
-R7
-R8
+R35
+R36
 n@mux4
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+Z42 L0 1 18
+R37
+r1
+!s85 0
+31
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+!i10b 1
+Z43 !s100 AcB`?eOL_5JK08dBczPzO1
+R39
+Z44 IE1WdDbl9fCjzPXeUR[Zn[2
+R17
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+!i113 1
+R35
+R36
+n@mux2_tb
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+R37
+r1
+!s85 0
+31
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+!i10b 1
+Z45 !s100 z^KSDlj`cL0Q@^LNbGlXd0
+R39
+Z46 I?8>[QbiEJnIHLZiUGJG?63
+R17
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+!i113 1
+R35
+R36
+n@mux2
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+Z47 L0 1 15
+R37
+r1
+!s85 0
+31
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+!i10b 1
+!s100 hJjX[PLD5L7KBA1BaP0__0
+R39
+IZ_ZLQVP[SE_dIBc6`_gTn3
+R17
+R0
+>>>>>>> fbaec860760fb2a3a0bc9b74466a1463b651b62e
+R37
+r1
+!s85 0
+31
+R1
+!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/IMEM_tb.v|
+!i113 1
+R35
+R36
+n@i@m@e@m_@test
+R0
+vadd4
+Z48 !s110 1633933607
+!i10b 1
+!s100 AVi8]^@OEA_zC3Z4:UYA]1
+R39
+IVUg8?2SDoWH8Y?eQn6z3N1
+R17
+R19
+w1633624007
+8D:/HK211/CTMT/Project/RISCV/src/add4.v
+FD:/HK211/CTMT/Project/RISCV/src/add4.v
+!i122 870
+L0 1 7
+R37
+r1
+!s85 0
+31
+Z49 !s108 1633933607.000000
+!s107 D:/HK211/CTMT/Project/RISCV/src/add4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/add4.v|
+!i113 1
+R35
+R36
+vadd4_tb
+Z50 !s110 1633933610
+!i10b 1
+!s100 <c;CNb6EeT1]Y`fDk7a<T0
+R39
+I=@FXMGR[jOVQ5OUgcLo`a1
+R17
+R19
+w1633624139
+8D:/HK211/CTMT/Project/RISCV/tb/add4_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/add4_tb.v
+!i122 883
+L0 2 8
+R37
+r1
+!s85 0
+31
+Z51 !s108 1633933609.000000
+!s107 D:/HK211/CTMT/Project/RISCV/tb/add4_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/add4_tb.v|
+!i113 1
+R35
+R36
+vALU
+R48
+!i10b 1
+!s100 ;ooN[fLa0dI<4<h_F99YS0
+R39
+IL1IYJECF=Dkj_g5R63nKT3
+R17
+R19
+Z52 w1633693806
+8D:/HK211/CTMT/Project/RISCV/src/ALU.v
+FD:/HK211/CTMT/Project/RISCV/src/ALU.v
+!i122 871
+L0 1 33
+R37
+r1
+!s85 0
+31
+R49
+!s107 D:/HK211/CTMT/Project/RISCV/src/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/ALU.v|
+!i113 1
+R35
+R36
+n@a@l@u
+vALU_tb
+R50
+!i10b 1
+!s100 MOIediAUL?=HUkee3m<Dg3
+R39
+I^<W8LiC184?b55k:ib?3A0
+R17
+R19
+R52
+8D:/HK211/CTMT/Project/RISCV/tb/ALU_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/ALU_tb.v
+!i122 884
+L0 1 65
+R37
+r1
+!s85 0
+31
+Z53 !s108 1633933610.000000
+!s107 D:/HK211/CTMT/Project/RISCV/tb/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/ALU_tb.v|
+!i113 1
+R35
+R36
+n@a@l@u_tb
+vbranch_comp
+R48
+!i10b 1
+!s100 KLI<H?Bz9gQbLgMVH5<fg2
+R39
+I3lZD9z8FK:4Z1=Wh@B_0F0
+R17
+R19
+w1633623418
+8D:/HK211/CTMT/Project/RISCV/src/branch_comp.v
+FD:/HK211/CTMT/Project/RISCV/src/branch_comp.v
+!i122 872
+L0 1 8
+R37
+r1
+!s85 0
+31
+R49
+!s107 D:/HK211/CTMT/Project/RISCV/src/branch_comp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/branch_comp.v|
+!i113 1
+R35
+R36
+vbranch_comp_tb
+R50
+!i10b 1
+!s100 @P?45@R`?f=TN6Agc>_SC3
+R39
+Iim2Dn2DTin@]Eg:R?zng=1
+R17
+R19
+R52
+8D:/HK211/CTMT/Project/RISCV/tb/branch_comp_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/branch_comp_tb.v
+!i122 885
+L0 1 29
+R37
+r1
+!s85 0
+31
+R53
+!s107 D:/HK211/CTMT/Project/RISCV/tb/branch_comp_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/branch_comp_tb.v|
+!i113 1
+R35
+R36
+vDMEM
+R48
+!i10b 1
+!s100 EAlFn=z8^G<5=f=`A8a3P0
+R39
+In9bQ5cbS6IPLamJFb87l]1
+R17
+R19
+Z54 w1633706553
+8D:/HK211/CTMT/Project/RISCV/src/DMEM.v
+FD:/HK211/CTMT/Project/RISCV/src/DMEM.v
+!i122 873
+L0 2 37
+R37
+r1
+!s85 0
+31
+R49
+!s107 D:/HK211/CTMT/Project/RISCV/src/DMEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/DMEM.v|
+!i113 1
+R35
+R36
+n@d@m@e@m
+vDMEM_ADDJ
+Z55 !s110 1633933608
+!i10b 1
+!s100 VP70RlO7:U?`D`?;IJKn_2
+R39
+IR2>O@7VJz6EY5^Nh`9i=P3
+R17
+R19
+Z56 w1633593140
+8D:/HK211/CTMT/Project/RISCV/src/DMEM_ADDJ.v
+FD:/HK211/CTMT/Project/RISCV/src/DMEM_ADDJ.v
+!i122 874
+L0 1 34
+R37
+r1
+!s85 0
+31
+R49
+!s107 D:/HK211/CTMT/Project/RISCV/src/DMEM_ADDJ.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/DMEM_ADDJ.v|
+!i113 1
+R35
+R36
+n@d@m@e@m_@a@d@d@j
+vDMEM_ADDJ_tb
+R50
+!i10b 1
+!s100 BY0R1nAeHSLJTdeEJU=g@0
+R39
+IHa]F6Kb5:3MCRk3U]=2GC3
+R17
+R19
+R56
+8D:/HK211/CTMT/Project/RISCV/tb/DMEM_ADDJ_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/DMEM_ADDJ_tb.v
+!i122 886
+L0 1 30
+R37
+r1
+!s85 0
+31
+R53
+!s107 D:/HK211/CTMT/Project/RISCV/tb/DMEM_ADDJ_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/DMEM_ADDJ_tb.v|
+!i113 1
+R35
+R36
+n@d@m@e@m_@a@d@d@j_tb
+vDMEM_tb
+Z57 !s110 1633933611
+!i10b 1
+!s100 koM<IAI`j<U`2i99a4T4o0
+R39
+I<?:[:NjfWIKczbClZ@[?P3
+R17
+R19
+R54
+8D:\HK211\CTMT\Project\RISCV\tb\DMEM_tb.v
+FD:\HK211\CTMT\Project\RISCV\tb\DMEM_tb.v
+!i122 887
+L0 2 42
+R37
+r1
+!s85 0
+31
+R53
+!s107 D:\HK211\CTMT\Project\RISCV\tb\DMEM_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\HK211\CTMT\Project\RISCV\tb\DMEM_tb.v|
+!i113 1
+R35
+R36
+n@d@m@e@m_tb
+vIMEM
+R55
+!i10b 1
+!s100 Z:RXzMdhW7VBd4MLnG>m;1
+R39
+I20mlbTlIXT9c0fjYlQ>DN2
+R17
+R19
+w1633932065
+8D:/HK211/CTMT/Project/RISCV/src/IMEM.v
+FD:/HK211/CTMT/Project/RISCV/src/IMEM.v
+!i122 875
+L0 7 30
+R37
+r1
+!s85 0
+31
+Z58 !s108 1633933608.000000
+!s107 D:/HK211/CTMT/Project/RISCV/src/IMEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/IMEM.v|
+!i113 1
+R35
+R36
+n@i@m@e@m
+vIMEM_Test
+R57
+!i10b 1
+!s100 O8i45]j>DAn?^ZZ?@cSID3
+R39
+IYQloW7:m4iSDUXmeX4GL41
+R17
+R19
+R56
+8D:/HK211/CTMT/Project/RISCV/tb/IMEM_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/IMEM_tb.v
+!i122 888
+R34
+R37
+r1
+!s85 0
+31
+Z59 !s108 1633933611.000000
+!s107 D:/HK211/CTMT/Project/RISCV/tb/IMEM_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/IMEM_tb.v|
+!i113 1
+R35
+R36
+vImmGen
+R55
+!i10b 1
+!s100 ^9=mXnRG;IZ4AoK3hWKki1
+R39
+IB^SRUO1EXESc^;JhAlL=23
+R17
+R19
+R52
+8D:/HK211/CTMT/Project/RISCV/src/ImmGen.v
+FD:/HK211/CTMT/Project/RISCV/src/ImmGen.v
+!i122 876
+L0 1 27
+R37
+r1
+!s85 0
+31
+R58
+!s107 D:/HK211/CTMT/Project/RISCV/src/ImmGen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/ImmGen.v|
+!i113 1
+R35
+R36
+n@imm@gen
+vImmGen_tb
+R57
+!i10b 1
+!s100 aDIWfmRcT7Q8XailNCfc83
+R39
+IoZ;Jd>C26M9Fj>[Q0o]O^2
+R17
+R19
+R52
+8D:/HK211/CTMT/Project/RISCV/tb/ImmGen_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/ImmGen_tb.v
+!i122 889
+L0 1 43
+R37
+r1
+!s85 0
+31
+R59
+!s107 D:/HK211/CTMT/Project/RISCV/tb/ImmGen_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/ImmGen_tb.v|
+!i113 1
+R35
+R36
+n@imm@gen_tb
+vMux2
+R55
+!i10b 1
+!s100 icKJ>`KN?eAMRCh75^0D82
+R39
+IbEe^<M=ZCDCdNJEUAWUO[0
+R17
+R19
+w1633696864
+8D:/HK211/CTMT/Project/RISCV/src/Mux2.v
+FD:/HK211/CTMT/Project/RISCV/src/Mux2.v
+!i122 877
+R47
+R37
+r1
+!s85 0
+31
+R58
+!s107 D:/HK211/CTMT/Project/RISCV/src/Mux2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/Mux2.v|
+!i113 1
+R35
+R36
+vMux2_tb
+R57
+!i10b 1
+R45
+R39
+R46
+R17
+R19
+R30
+R31
+R32
+!i122 890
+R33
+R37
+r1
+!s85 0
+31
+R59
+R28
+R29
+!i113 1
+R35
+R36
+vMux4
+R55
+!i10b 1
+R43
+R39
+R44
+R17
+R19
+R25
+R26
+R27
+!i122 878
+R42
+R37
+r1
+!s85 0
+31
+R58
+R23
+R24
+!i113 1
+R35
+R36
 vMux4_tb
-R13
+Z60 !s110 1633933612
 !i10b 1
 !s100 lL2N=J6Mook^3YmW0MY]i0
-R1
+R39
 IK;lP=>_ahSlhd<H46ZggC3
-R2
-R14
+R17
+R19
 w1633698085
 8D:/HK211/CTMT/Project/RISCV/tb/Mux4_tb.v
 FD:/HK211/CTMT/Project/RISCV/tb/Mux4_tb.v
-!i122 403
+!i122 891
 L0 2 29
-R5
+R37
 r1
 !s85 0
 31
-R15
+Z61 !s108 1633933612.000000
 !s107 D:/HK211/CTMT/Project/RISCV/tb/Mux4_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/Mux4_tb.v|
 !i113 1
-R7
-R8
+R35
+R36
 n@mux4_tb
 vPC
-R13
+Z62 !s110 1633933609
 !i10b 1
-!s100 SnKLm@;]dY:lJ]j:Rd0?83
-R1
-IeaG=fNFd<<bQSkP<7^]351
-R2
-R14
-w1633612114
-8D:/HK211/CTMT/Project/RISCV/src/PC.v
-FD:/HK211/CTMT/Project/RISCV/src/PC.v
-!i122 401
-L0 1 9
-R5
+R41
+R39
+IAV7h_cbQV2G=I>8[W<<e52
+R17
+R19
+R54
+R20
+R21
+!i122 879
+R18
+R37
 r1
 !s85 0
 31
+R51
 R15
-!s107 D:/HK211/CTMT/Project/RISCV/src/PC.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/PC.v|
+R16
 !i113 1
-R7
-R8
-n@p@c
+R35
+R36
 vPC_tb
-R13
+R60
 !i10b 1
-!s100 GnbzbAFX?0QjU^nWITYEa2
-R1
-I:QYg]^[R71TJjz:DoiPb`3
-R2
-R14
-w1633697338
-8D:/HK211/CTMT/Project/RISCV/tb/PC_tb.v
-FD:/HK211/CTMT/Project/RISCV/tb/PC_tb.v
-!i122 402
-L0 2 18
-R5
+R38
+R39
+R40
+R17
+R19
+R9
+R10
+R11
+!i122 892
+R12
+R37
 r1
 !s85 0
 31
-R15
-!s107 D:/HK211/CTMT/Project/RISCV/tb/PC_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/PC_tb.v|
+R61
+R4
+R5
 !i113 1
-R7
-R8
-n@p@c_tb
+R35
+R36
 vREGBank
-R9
+R62
 !i10b 1
 !s100 b_MG[TbFOIbl=SRILb@WE3
-R1
-I4L9mO?Qg`l]B_XaZZ4kc51
-R2
-R3
-w1633595565
-8D:/FPGA/CompurterAchitecture/RISCV/src/REGBank.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/REGBank.v
-!i122 358
+R39
+IUR3W0ZUGB1`>AUjlS0R:51
+R17
+R19
+R52
+8D:/HK211/CTMT/Project/RISCV/src/REGBank.v
+FD:/HK211/CTMT/Project/RISCV/src/REGBank.v
+!i122 880
 L0 1 42
-R5
+R37
 r1
 !s85 0
 31
-R10
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/REGBank.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/REGBank.v|
+R51
+!s107 D:/HK211/CTMT/Project/RISCV/src/REGBank.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/REGBank.v|
 !i113 1
-R7
-R8
+R35
+R36
 n@r@e@g@bank
 vREGBank_tb
-R11
+R60
 !i10b 1
 !s100 =>iGMTHObjn>2JU>Og2I61
-R1
-Ic_Fd9CEn]f7g9z@ajzP>Z0
-R2
-R3
-w1633607579
-8D:/FPGA/CompurterAchitecture/RISCV/tb/REGBank_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/REGBank_tb.v
-!i122 370
+R39
+I[Dac6i]Wj[1af3d[ZA]L12
+R17
+R19
+R52
+8D:/HK211/CTMT/Project/RISCV/tb/REGBank_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/REGBank_tb.v
+!i122 893
 L0 1 39
-R5
+R37
 r1
 !s85 0
 31
-R12
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/REGBank_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/REGBank_tb.v|
+R61
+!s107 D:/HK211/CTMT/Project/RISCV/tb/REGBank_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/REGBank_tb.v|
 !i113 1
-R7
-R8
+R35
+R36
 n@r@e@g@bank_tb
+vRISCV_tb
+R60
+!i10b 1
+!s100 OKF[VB[ON_Jz>K^mOHon90
+R39
+I71fJ19I^UjIc2MQMhQSbz3
+R17
+R19
+R54
+8D:\HK211\CTMT\Project\RISCV\tb\RISCV_tb.v
+FD:\HK211\CTMT\Project\RISCV\tb\RISCV_tb.v
+!i122 894
+L0 2 132
+R37
+r1
+!s85 0
+31
+R61
+!s107 D:\HK211\CTMT\Project\RISCV\tb\RISCV_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\HK211\CTMT\Project\RISCV\tb\RISCV_tb.v|
+!i113 1
+R35
+R36
+n@r@i@s@c@v_tb
 vROMControl
-R9
+R62
 !i10b 1
 !s100 hl8K?QGUZB4I:@:n0CRI02
-R1
-I7LDb6eL1SX8SH`5DeF;[a2
-R2
-R3
-w1633536357
-8D:/FPGA/CompurterAchitecture/RISCV/src/ROMControl.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/ROMControl.v
-!i122 359
+R39
+IajD`D3dbi>]zlPDO^AD4h2
+R17
+R19
+Z63 w1633598041
+8D:/HK211/CTMT/Project/RISCV/src/ROMControl.v
+FD:/HK211/CTMT/Project/RISCV/src/ROMControl.v
+!i122 881
 L0 1 72
-R5
+R37
 r1
 !s85 0
 31
-R10
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/ROMControl.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/ROMControl.v|
+R51
+!s107 D:/HK211/CTMT/Project/RISCV/src/ROMControl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/ROMControl.v|
 !i113 1
-R7
-R8
+R35
+R36
 n@r@o@m@control
 vROMControl_tb
-R11
+R60
 !i10b 1
-!s100 lRHg59bUf?hGJIna:D_eA2
-R1
-I@^Ik26^n]0lDoUEH9BoVW2
-R2
-R3
-w1633536589
-8D:/FPGA/CompurterAchitecture/RISCV/tb/ROMControl_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/ROMControl_tb.v
-!i122 371
-L0 1 17
-R5
+!s100 ]SF<1H[m=;M4XEN0692:_3
+R39
+IOVKzV^ac`A=[g6W@HAQQ83
+R17
+R19
+R54
+8D:/HK211/CTMT/Project/RISCV/tb/ROMControl_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/ROMControl_tb.v
+!i122 895
+L0 2 17
+R37
 r1
 !s85 0
 31
-R12
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/ROMControl_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/ROMControl_tb.v|
+R61
+!s107 D:/HK211/CTMT/Project/RISCV/tb/ROMControl_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/ROMControl_tb.v|
 !i113 1
-R7
-R8
+R35
+R36
 n@r@o@m@control_tb
 vROMDecoder
-R9
+R62
 !i10b 1
 !s100 NFgA0HL4Nz=CcY@Z>UXd61
-R1
-IIL^QLmZLT__nhGN]<5FXb1
-R2
-R3
-w1633578973
-8D:/FPGA/CompurterAchitecture/RISCV/src/ROMDecoder.v
-FD:/FPGA/CompurterAchitecture/RISCV/src/ROMDecoder.v
-!i122 360
+R39
+Ii4PzBQL:UJnXiX7@=>MmU3
+R17
+R19
+R63
+8D:/HK211/CTMT/Project/RISCV/src/ROMDecoder.v
+FD:/HK211/CTMT/Project/RISCV/src/ROMDecoder.v
+!i122 882
 L0 1 83
-R5
+R37
 r1
 !s85 0
 31
-R10
-!s107 D:/FPGA/CompurterAchitecture/RISCV/src/ROMDecoder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/src/ROMDecoder.v|
+R51
+!s107 D:/HK211/CTMT/Project/RISCV/src/ROMDecoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/src/ROMDecoder.v|
 !i113 1
-R7
-R8
+R35
+R36
 n@r@o@m@decoder
 vROMDecoder_tb
-R11
+!s110 1633933613
 !i10b 1
 !s100 SSQIg9DkDD1nBF=_CK8<n2
-R1
-Ib6Y:5:=CR[6[oAVmhccV93
-R2
-R3
-w1633593548
-8D:/FPGA/CompurterAchitecture/RISCV/tb/ROMDecoder_tb.v
-FD:/FPGA/CompurterAchitecture/RISCV/tb/ROMDecoder_tb.v
-!i122 372
+R39
+IcKfUai^baSzDj28b?YZ7c1
+R17
+R19
+R63
+8D:/HK211/CTMT/Project/RISCV/tb/ROMDecoder_tb.v
+FD:/HK211/CTMT/Project/RISCV/tb/ROMDecoder_tb.v
+!i122 896
 L0 1 20
-R5
+R37
 r1
 !s85 0
 31
-R12
-!s107 D:/FPGA/CompurterAchitecture/RISCV/tb/ROMDecoder_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/FPGA/CompurterAchitecture/RISCV/tb/ROMDecoder_tb.v|
+R61
+!s107 D:/HK211/CTMT/Project/RISCV/tb/ROMDecoder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HK211/CTMT/Project/RISCV/tb/ROMDecoder_tb.v|
 !i113 1
-R7
-R8
+R35
+R36
 n@r@o@m@decoder_tb

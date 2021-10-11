@@ -22,7 +22,7 @@ assign		pWord = PC[19:2];
 assign		pByte = PC[1:0];
 
 initial begin
-$readmemh("D:/FPGA/CompurterAchitecture/RISCV/tb/instruction.txt",IMEM);
+$readmemh("D:\HK211\CTMT\Project\RISCV\Code\test_Rtype_1.txt",IMEM);
 end
 
 always@(PC)

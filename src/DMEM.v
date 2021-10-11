@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
 module DMEM (
     Addr,
     DataW,
@@ -27,9 +28,9 @@ module DMEM (
     always @(posedge clk ) begin
         if (MemRW == 1'b1) begin
             case (LenSel)
-                2'b00: DMEM[Addr] <= DataW[7:0];     //Store Byte
+                2'b00:  DMEM[Addr] <= DataW[7:0];     //Store Byte
                 2'b01: {DMEM[Addr+1], DMEM[Addr]} <= DataW[16:0];    //Store Haft Word 
-                2'b10: {DMEM[Addr+3], DMEM[Addr+2], DMEM[Addr+1], DMEM[Addr]} <= DataW[31:0];    //Store Word
+                2'b11: {DMEM[Addr+3], DMEM[Addr+2], DMEM[Addr+1], DMEM[Addr]} <= DataW[31:0];    //Store Word
             endcase 
         end
     end
