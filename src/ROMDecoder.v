@@ -46,10 +46,10 @@ module ROMDecoder (
 
             //I type, Load instruction
             11'b?_000_00000_?_?: DataOut = 6'd19;   //LB
-            11'b?_010_00000_?_?: DataOut = 6'd20;   //LH
-            11'b?_011_00000_?_?: DataOut = 6'd21;   //LW
+            11'b?_001_00000_?_?: DataOut = 6'd20;   //LH
+            11'b?_010_00000_?_?: DataOut = 6'd21;   //LW
             11'b?_100_00000_?_?: DataOut = 6'd22;   //LBU
-            11'b?_110_00000_?_?: DataOut = 6'd23;   //LHU
+            11'b?_101_00000_?_?: DataOut = 6'd23;   //LHU
 
             //S type, Strore Instruction
             11'b?_000_01000_?_?: DataOut = 6'd24;   //SB

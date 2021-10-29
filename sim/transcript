@@ -1,582 +1,198 @@
-# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
-# ** Note: Multiple occurrences of ini variable RunLength are found, only first occurence will be considered.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# 13 compiles, 0 failed with no errors.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of Mux4_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of RISCV_tb.v was successful.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 27 compiles, 0 failed with no errors.
-vsim -gui work.RISCV_tb
-# vsim -gui work.RISCV_tb 
-# Start time: 12:08:18 on Oct 11,2021
-# Loading work.RISCV_tb
-# Loading work.Mux2
-# Loading work.PC
-# Loading work.add4
-# Loading work.IMEM
-# Loading work.REGBank
-# Loading work.ImmGen
-# Loading work.ROMDecoder
-# Loading work.branch_comp
-# Loading work.ALU
-# Loading work.DMEM
-# Loading work.DMEM_ADDJ
-# Loading work.Mux4
-# Loading work.ROMControl
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/DMEM_ADDJ.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 109
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/Mux4.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
-# Load canceled
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of Mux4_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of RISCV_tb.v was successful.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 27 compiles, 0 failed with no errors.
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of Mux4_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of RISCV_tb.v was successful.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 27 compiles, 0 failed with no errors.
-vsim -gui work.DMEM_tb
-# End time: 12:37:35 on Oct 11,2021, Elapsed time: 0:29:17
-# Errors: 0, Warnings: 13
-# vsim -gui work.DMEM_tb 
-# Start time: 12:37:35 on Oct 11,2021
-# Loading work.DMEM_tb
-# Loading work.DMEM
-vsim -gui work.RISCV_tb
-# End time: 12:39:00 on Oct 11,2021, Elapsed time: 0:01:25
-# Errors: 0, Warnings: 1
-# vsim -gui work.RISCV_tb 
-# Start time: 12:39:00 on Oct 11,2021
-# Loading work.RISCV_tb
-# Loading work.Mux2
-# Loading work.PC
-# Loading work.add4
-# Loading work.IMEM
-# Loading work.REGBank
-# Loading work.ImmGen
-# Loading work.ROMDecoder
-# Loading work.branch_comp
-# Loading work.ALU
-# Loading work.DMEM
-# Loading work.DMEM_ADDJ
-# Loading work.Mux4
-# Loading work.ROMControl
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/DMEM_ADDJ.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 109
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/Mux4.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
+# Reading pref.tcl
+# OpenFile D:/HK211/CTMT/Project/RISCV/sim/RISCV.mpf
+# Loading project RISCV
+vsim -gui work.FSM_1bit_tb
+# vsim -gui work.FSM_1bit_tb 
+# Start time: 16:43:29 on Oct 29,2021
+# Loading work.FSM_1bit_tb
+# Loading work.FSM_1bit
+# ** Error (suppressible): (vsim-3389) Port 'state' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /FSM_1bit_tb/fsm_1bit File: D:/HK211/CTMT/Project/RISCV/tb/FSM_1bit_tb.v Line: 9
+# Error loading design
+# End time: 16:43:29 on Oct 29,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of FSM_1bit.v was successful.
+# Compile of FSM_1bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FSM_1bit_tb
+# vsim -gui work.FSM_1bit_tb 
+# Start time: 16:43:55 on Oct 29,2021
+# Loading work.FSM_1bit_tb
+# Loading work.FSM_1bit
+# ** Error (suppressible): (vsim-3389) Port 'state' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /FSM_1bit_tb/fsm_1bit File: D:/HK211/CTMT/Project/RISCV/tb/FSM_1bit_tb.v Line: 9
+# Error loading design
+# End time: 16:43:56 on Oct 29,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of FSM_2bit.v failed with 2 errors.
+# Compile of FSM_2bit_tb.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of FSM_2bit.v was successful.
+# Compile of FSM_2bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FSM_2bit_tb
+# vsim -gui work.FSM_2bit_tb 
+# Start time: 18:33:33 on Oct 29,2021
+# Loading work.FSM_2bit_tb
+# Loading work.FSM_1bit
+# ** Error: (vsim-3063) Port 'state' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /FSM_2bit_tb/fsm_1bit File: D:/HK211/CTMT/Project/RISCV/tb/FSM_2bit_tb.v Line: 8
+# Error loading design
+# End time: 18:33:33 on Oct 29,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+# Compile of FSM_2bit.v was successful.
+# Compile of FSM_2bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FSM_2bit_tb
+# vsim -gui work.FSM_2bit_tb 
+# Start time: 18:35:27 on Oct 29,2021
+# Loading work.FSM_2bit_tb
+# Loading work.FSM_1bit
+# ** Error: (vsim-3063) Port 'state' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /FSM_2bit_tb/fsm_1bit File: D:/HK211/CTMT/Project/RISCV/tb/FSM_2bit_tb.v Line: 8
+# Error loading design
+# End time: 18:35:28 on Oct 29,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of FSM_2bit.v was successful.
+# Compile of FSM_2bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FSM_2bit_tb
+# vsim -gui work.FSM_2bit_tb 
+# Start time: 18:37:53 on Oct 29,2021
+# Loading work.FSM_2bit_tb
+# Loading work.FSM_2bit
 add wave -position insertpoint  \
-sim:/RISCV_tb/alu
-add wave -position insertpoint  \
-sim:/RISCV_tb/alu \
-sim:/RISCV_tb/aluSel \
-sim:/RISCV_tb/aSel \
-sim:/RISCV_tb/brEq \
-sim:/RISCV_tb/brLT \
-sim:/RISCV_tb/brUn \
-sim:/RISCV_tb/bSel \
-sim:/RISCV_tb/clk \
-sim:/RISCV_tb/dataA \
-sim:/RISCV_tb/dataB \
-sim:/RISCV_tb/dataIn \
-sim:/RISCV_tb/dataInR \
-sim:/RISCV_tb/dataOutAddj \
-sim:/RISCV_tb/dataR \
-sim:/RISCV_tb/dataROut \
-sim:/RISCV_tb/DataROut \
-sim:/RISCV_tb/dec2rom \
-sim:/RISCV_tb/imm \
-sim:/RISCV_tb/immSel \
-sim:/RISCV_tb/inst \
-sim:/RISCV_tb/memRW \
-sim:/RISCV_tb/memRWR \
-sim:/RISCV_tb/mux2aluA \
-sim:/RISCV_tb/mux2aluB \
-sim:/RISCV_tb/mux2pc \
-sim:/RISCV_tb/pc \
-sim:/RISCV_tb/pc4 \
-sim:/RISCV_tb/pcSel \
-sim:/RISCV_tb/regWEn \
-sim:/RISCV_tb/romData \
-sim:/RISCV_tb/wb \
-sim:/RISCV_tb/wbSel \
-sim:/RISCV_tb/WIDTH_DATA_LENGTH \
-sim:/RISCV_tb/WIDTH_DATAOUT_LENGTH \
-sim:/RISCV_tb/WIDTH_INST_LENGTH \
-sim:/RISCV_tb/WIDTH_ROMDATA_LENGTH
+sim:/FSM_2bit_tb/clk \
+sim:/FSM_2bit_tb/rst \
+sim:/FSM_2bit_tb/state \
+sim:/FSM_2bit_tb/x
+run -all
+# Compile of FSM_2bit.v was successful.
+# Compile of FSM_2bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FSM_2bit_tb
+# Loading work.FSM_2bit
+restart
 run
-# ** Warning: (vsim-7) Failed to open readmem file "D:HK211CTMTProjectRISCVCode/test_Rtype_1.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : D:/HK211/CTMT/Project/RISCV/src/IMEM.v(25)
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/imem_1
-vsim -gui work.DMEM_ADDJ
-# End time: 12:40:04 on Oct 11,2021, Elapsed time: 0:01:04
-# Errors: 0, Warnings: 6
-# vsim -gui work.DMEM_ADDJ 
-# Start time: 12:40:04 on Oct 11,2021
-# Loading work.DMEM_ADDJ
-vsim -gui work.DMEM
-# End time: 12:40:21 on Oct 11,2021, Elapsed time: 0:00:17
-# Errors: 0, Warnings: 1
-# vsim -gui work.DMEM 
-# Start time: 12:40:21 on Oct 11,2021
-# Loading work.DMEM
-add wave -position insertpoint  \
-sim:/DMEM/Addr \
-sim:/DMEM/clk \
-sim:/DMEM/DataR \
-sim:/DMEM/DataW \
-sim:/DMEM/DMEM \
-sim:/DMEM/LENGHT_MUX \
-sim:/DMEM/LenSel \
-sim:/DMEM/MEM_DEPTH \
-sim:/DMEM/MemRW \
-sim:/DMEM/WIDTH_ADDR_LENGTH \
-sim:/DMEM/WIDTH_DATA_LENGTH \
-sim:/DMEM/WIDTH_MEM_LENGTH
-run
-vsim -gui work.RISCV_tb
-# End time: 12:43:42 on Oct 11,2021, Elapsed time: 0:03:21
-# Errors: 0, Warnings: 1
-# vsim -gui work.RISCV_tb 
-# Start time: 12:43:42 on Oct 11,2021
-# Loading work.RISCV_tb
-# Loading work.Mux2
-# Loading work.PC
-# Loading work.add4
-# Loading work.IMEM
-# Loading work.REGBank
-# Loading work.ImmGen
-# Loading work.ROMDecoder
-# Loading work.branch_comp
-# Loading work.ALU
-# Loading work.DMEM
-# Loading work.DMEM_ADDJ
-# Loading work.Mux4
-# Loading work.ROMControl
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/DMEM_ADDJ.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 109
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/Mux4.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
-add wave -position insertpoint  \
-sim:/RISCV_tb/dataA \
-sim:/RISCV_tb/dataB
-add wave -position insertpoint  \
-sim:/RISCV_tb/dataR
-add wave -position insertpoint  \
-sim:/RISCV_tb/alu_1/ALUSel \
-sim:/RISCV_tb/alu_1/DataA \
-sim:/RISCV_tb/alu_1/DataB \
-sim:/RISCV_tb/alu_1/DataOut \
-sim:/RISCV_tb/alu_1/WIDTH_ALUSEL_LENGTH \
-sim:/RISCV_tb/alu_1/WIDTH_DATA_LENGTH
-run
-# ** Warning: (vsim-7) Failed to open readmem file "D:HK211CTMTProjectRISCVCode/test_Rtype_1.txt" in read mode.
-# No such file or directory. (errno = ENOENT)    : D:/HK211/CTMT/Project/RISCV/src/IMEM.v(25)
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/imem_1
-add wave -position insertpoint  \
-sim:/RISCV_tb/imem_1/IMEM
-# (vsim-4077) Logging very large object: /RISCV_tb/imem_1/IMEM
-run
-add wave -position insertpoint  \
-sim:/RISCV_tb/dataA \
-sim:/RISCV_tb/dataB
-run
-add wave -position insertpoint  \
-sim:/RISCV_tb/regb_1/DataA \
-sim:/RISCV_tb/regb_1/DataB \
-sim:/RISCV_tb/regb_1/DataD
-run
-run
-add wave -position insertpoint  \
-sim:/RISCV_tb/regb_1/AddrA \
-sim:/RISCV_tb/regb_1/AddrB \
-sim:/RISCV_tb/regb_1/AddrD \
-sim:/RISCV_tb/regb_1/clk \
-sim:/RISCV_tb/regb_1/DataA \
-sim:/RISCV_tb/regb_1/DataB \
-sim:/RISCV_tb/regb_1/DataD \
-sim:/RISCV_tb/regb_1/NUM_REG_BANK \
-sim:/RISCV_tb/regb_1/REG \
-sim:/RISCV_tb/regb_1/RegWEn \
-sim:/RISCV_tb/regb_1/WIDTH_ADDR_LENGTH \
-sim:/RISCV_tb/regb_1/WIDTH_DATA_LENGTH
-run
-add wave -position insertpoint  \
-sim:/RISCV_tb/dataadj_1/DataIn \
-sim:/RISCV_tb/dataadj_1/DataOut \
-sim:/RISCV_tb/dataadj_1/FormatSel \
-sim:/RISCV_tb/dataadj_1/LENGTH_MUX \
-sim:/RISCV_tb/dataadj_1/WIDTH_DATA_LENGTH
-run
-add wave -position insertpoint  \
-sim:/RISCV_tb/alu \
-sim:/RISCV_tb/aluSel \
-sim:/RISCV_tb/aSel \
-sim:/RISCV_tb/brEq \
-sim:/RISCV_tb/brLT \
-sim:/RISCV_tb/brUn \
-sim:/RISCV_tb/bSel \
-sim:/RISCV_tb/clk \
-sim:/RISCV_tb/dataA \
-sim:/RISCV_tb/dataB \
-sim:/RISCV_tb/dataIn \
-sim:/RISCV_tb/dataInR \
-sim:/RISCV_tb/dataOutAddj \
-sim:/RISCV_tb/dataR \
-sim:/RISCV_tb/dataROut \
-sim:/RISCV_tb/DataROut \
-sim:/RISCV_tb/dec2rom \
-sim:/RISCV_tb/imm \
-sim:/RISCV_tb/immSel \
-sim:/RISCV_tb/inst \
-sim:/RISCV_tb/memRW \
-sim:/RISCV_tb/memRWR \
-sim:/RISCV_tb/mux2aluA \
-sim:/RISCV_tb/mux2aluB \
-sim:/RISCV_tb/mux2pc \
-sim:/RISCV_tb/pc \
-sim:/RISCV_tb/pc4 \
-sim:/RISCV_tb/pcSel \
-sim:/RISCV_tb/regWEn \
-sim:/RISCV_tb/romData \
-sim:/RISCV_tb/wb \
-sim:/RISCV_tb/wbSel \
-sim:/RISCV_tb/WIDTH_DATA_LENGTH \
-sim:/RISCV_tb/WIDTH_DATAOUT_LENGTH \
-sim:/RISCV_tb/WIDTH_INST_LENGTH \
-sim:/RISCV_tb/WIDTH_ROMDATA_LENGTH
-run
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of Mux4_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of RISCV_tb.v was successful.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 27 compiles, 0 failed with no errors.
-vsim -gui work.RISCV_tb
-# End time: 13:01:35 on Oct 11,2021, Elapsed time: 0:17:53
-# Errors: 0, Warnings: 7
-# vsim -gui work.RISCV_tb 
-# Start time: 13:01:35 on Oct 11,2021
-# Loading work.RISCV_tb
-# Loading work.Mux2
-# Loading work.PC
-# Loading work.add4
-# Loading work.IMEM
-# Loading work.REGBank
-# Loading work.ImmGen
-# Loading work.ROMDecoder
-# Loading work.branch_comp
-# Loading work.ALU
-# Loading work.DMEM
-# Loading work.DMEM_ADDJ
-# Loading work.Mux4
-# Loading work.ROMControl
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/DMEM_ADDJ.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 109
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/Mux4.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
-add wave -position insertpoint  \
-sim:/RISCV_tb/alu_1/ALUSel \
-sim:/RISCV_tb/alu_1/DataA \
-sim:/RISCV_tb/alu_1/DataB \
-sim:/RISCV_tb/alu_1/DataOut \
-sim:/RISCV_tb/alu_1/WIDTH_ALUSEL_LENGTH \
-sim:/RISCV_tb/alu_1/WIDTH_DATA_LENGTH
-run
-# ** Warning: (vsim-7) Failed to open readmem file "D:HK211CTMTProjectRISCVCode	est_Rtype_1.txt" in read mode.
-# Invalid argument. (errno = EINVAL)    : D:/HK211/CTMT/Project/RISCV/src/IMEM.v(25)
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/imem_1
-add wave -position insertpoint  \
-sim:/RISCV_tb/dataadj_1/DataIn \
-sim:/RISCV_tb/dataadj_1/DataOut \
-sim:/RISCV_tb/dataadj_1/FormatSel \
-sim:/RISCV_tb/dataadj_1/LENGTH_MUX \
-sim:/RISCV_tb/dataadj_1/WIDTH_DATA_LENGTH
+# Compile of FSM_2bit.v was successful.
+# Compile of FSM_2bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/DMEM_ADDJ.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 109
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/Mux4.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
+# Loading work.FSM_2bit_tb
+# Loading work.FSM_2bit
 run
-# ** Warning: (vsim-7) Failed to open readmem file "D:HK211CTMTProjectRISCVCode	est_Rtype_1.txt" in read mode.
-# Invalid argument. (errno = EINVAL)    : D:/HK211/CTMT/Project/RISCV/src/IMEM.v(25)
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/imem_1
-vsim -gui work.RISCV_tb
-# End time: 13:03:16 on Oct 11,2021, Elapsed time: 0:01:41
-# Errors: 0, Warnings: 6
-# vsim -gui work.RISCV_tb 
-# Start time: 13:03:16 on Oct 11,2021
-# Loading work.RISCV_tb
-# Loading work.Mux2
-# Loading work.PC
-# Loading work.add4
-# Loading work.IMEM
-# Loading work.REGBank
-# Loading work.ImmGen
-# Loading work.ROMDecoder
-# Loading work.branch_comp
-# Loading work.ALU
-# Loading work.DMEM
-# Loading work.DMEM_ADDJ
-# Loading work.Mux4
-# Loading work.ROMControl
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'DataOut'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/DMEM_ADDJ.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/dataadj_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 109
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'mux4_1'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'port_in_0'. The port definition is at: D:/HK211/CTMT/Project/RISCV/src/Mux4.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/mux4_1 File: D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v Line: 113
-# ** Warning: (vsim-3722) D:/HK211/CTMT/Project/RISCV/tb/RISCV_tb.v(113): [TFMPC] - Missing connection for port 'port_in_3'.
-# WARNING: No extended dataflow license exists
-add wave -position insertpoint  \
-sim:/RISCV_tb/alu \
-sim:/RISCV_tb/aluSel \
-sim:/RISCV_tb/aSel \
-sim:/RISCV_tb/brEq \
-sim:/RISCV_tb/brLT \
-sim:/RISCV_tb/brUn \
-sim:/RISCV_tb/bSel \
-sim:/RISCV_tb/clk \
-sim:/RISCV_tb/dataA \
-sim:/RISCV_tb/dataB \
-sim:/RISCV_tb/dataIn \
-sim:/RISCV_tb/dataInR \
-sim:/RISCV_tb/dataOutAddj \
-sim:/RISCV_tb/dataR \
-sim:/RISCV_tb/dataROut \
-sim:/RISCV_tb/DataROut \
-sim:/RISCV_tb/dec2rom \
-sim:/RISCV_tb/imm \
-sim:/RISCV_tb/immSel \
-sim:/RISCV_tb/inst \
-sim:/RISCV_tb/memRW \
-sim:/RISCV_tb/memRWR \
-sim:/RISCV_tb/mux2aluA \
-sim:/RISCV_tb/mux2aluB \
-sim:/RISCV_tb/mux2pc \
-sim:/RISCV_tb/pc \
-sim:/RISCV_tb/pc4 \
-sim:/RISCV_tb/pcSel \
-sim:/RISCV_tb/regWEn \
-sim:/RISCV_tb/romData \
-sim:/RISCV_tb/wb \
-sim:/RISCV_tb/wbSel \
-sim:/RISCV_tb/WIDTH_DATA_LENGTH \
-sim:/RISCV_tb/WIDTH_DATAOUT_LENGTH \
-sim:/RISCV_tb/WIDTH_INST_LENGTH \
-sim:/RISCV_tb/WIDTH_ROMDATA_LENGTH
-run
-# ** Warning: (vsim-7) Failed to open readmem file "D:HK211CTMTProjectRISCVCode	est_Rtype_1.txt" in read mode.
-# Invalid argument. (errno = EINVAL)    : D:/HK211/CTMT/Project/RISCV/src/IMEM.v(25)
-#    Time: 0 ps  Iteration: 0  Instance: /RISCV_tb/imem_1
-vsim -gui work.DMEM_tb
-# End time: 13:13:49 on Oct 11,2021, Elapsed time: 0:10:33
-# Errors: 0, Warnings: 6
-# vsim -gui work.DMEM_tb 
-# Start time: 13:13:49 on Oct 11,2021
-# Loading work.DMEM_tb
-# Loading work.DMEM
-add wave -position insertpoint  \
-sim:/DMEM_tb/dmem1/Addr \
-sim:/DMEM_tb/dmem1/clk \
-sim:/DMEM_tb/dmem1/DataR \
-sim:/DMEM_tb/dmem1/DataW \
-sim:/DMEM_tb/dmem1/DMEM \
-sim:/DMEM_tb/dmem1/LENGHT_MUX \
-sim:/DMEM_tb/dmem1/LenSel \
-sim:/DMEM_tb/dmem1/MEM_DEPTH \
-sim:/DMEM_tb/dmem1/MemRW \
-sim:/DMEM_tb/dmem1/WIDTH_ADDR_LENGTH \
-sim:/DMEM_tb/dmem1/WIDTH_DATA_LENGTH \
-sim:/DMEM_tb/dmem1/WIDTH_MEM_LENGTH
-run
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of Mux4_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of RISCV_tb.v was successful.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 27 compiles, 0 failed with no errors.
+# Compile of FSM_2bit.v was successful.
+# Compile of FSM_2bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.DMEM_tb
-# Loading work.DMEM
+# Loading work.FSM_2bit_tb
+# Loading work.FSM_2bit
 run
-# Compile of add4.v was successful.
-# Compile of ALU.v was successful.
-# Compile of branch_comp.v was successful.
-# Compile of DMEM.v was successful.
-# Compile of DMEM_ADDJ.v was successful.
-# Compile of IMEM.v was successful.
-# Compile of ImmGen.v was successful with warnings.
-# Compile of Mux2.v was successful.
-# Compile of Mux4.v was successful.
-# Compile of PC.v was successful.
-# Compile of REGBank.v was successful.
-# Compile of ROMControl.v was successful.
-# Compile of ROMDecoder.v was successful.
-# Compile of add4_tb.v was successful.
-# Compile of ALU_tb.v was successful.
-# Compile of branch_comp_tb.v was successful.
-# Compile of DMEM_ADDJ_tb.v was successful.
-# Compile of DMEM_tb.v was successful.
-# Compile of IMEM_tb.v was successful.
-# Compile of ImmGen_tb.v was successful.
-# Compile of Mux2_tb.v was successful.
-# Compile of Mux4_tb.v was successful.
-# Compile of PC_tb.v was successful.
-# Compile of REGBank_tb.v was successful with warnings.
-# Compile of RISCV_tb.v was successful.
-# Compile of ROMControl_tb.v was successful.
-# Compile of ROMDecoder_tb.v was successful.
-# 27 compiles, 0 failed with no errors.
-# Load canceled
+# Compile of FSM_1bit.v failed with 1 errors.
+# Compile of FSM_1bit_tb.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of FSM_1bit.v was successful.
+# Compile of FSM_1bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FSM_1bit_tb
+# End time: 20:22:38 on Oct 29,2021, Elapsed time: 1:44:45
+# Errors: 0, Warnings: 3
+# vsim -gui work.FSM_1bit_tb 
+# Start time: 20:22:38 on Oct 29,2021
+# Loading work.FSM_1bit_tb
+# Loading work.FSM_1bit
+# ** Error (suppressible): (vsim-3389) Port 'y' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /FSM_1bit_tb/fsm_1bit File: D:/HK211/CTMT/Project/RISCV/tb/FSM_1bit_tb.v Line: 9
+# Error loading design
+# End time: 20:22:38 on Oct 29,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of FSM_1bit.v was successful.
+# Compile of FSM_1bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FSM_1bit_tb
+# vsim -gui work.FSM_1bit_tb 
+# Start time: 20:24:03 on Oct 29,2021
+# Loading work.FSM_1bit_tb
+# Loading work.FSM_1bit
+# ** Error (suppressible): (vsim-3389) Port 'y' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /FSM_1bit_tb/fsm_1bit File: D:/HK211/CTMT/Project/RISCV/tb/FSM_1bit_tb.v Line: 9
+# Error loading design
+# End time: 20:24:03 on Oct 29,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of FSM_1bit.v was successful.
+# Compile of FSM_1bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FSM_1bit_tb
+# vsim -gui work.FSM_1bit_tb 
+# Start time: 20:26:35 on Oct 29,2021
+# Loading work.FSM_1bit_tb
+# Loading work.FSM_1bit
+add wave -position insertpoint  \
+sim:/FSM_1bit_tb/clk \
+sim:/FSM_1bit_tb/rst \
+sim:/FSM_1bit_tb/state \
+sim:/FSM_1bit_tb/x
+run
+# Compile of FSM_1bit.v was successful.
+# Compile of FSM_1bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.DMEM_tb
-# Loading work.DMEM
+# Loading work.FSM_1bit_tb
+# Loading work.FSM_1bit
+run
+restart
+# Compile of FSM_1bit.v was successful.
+# Compile of FSM_1bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FSM_1bit_tb
+# Loading work.FSM_1bit
+run
+# Compile of FSM_1bit.v was successful.
+# Compile of FSM_1bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FSM_1bit_tb
+# Loading work.FSM_1bit
+run
+# Compile of FSM_2bit.v was successful.
+# Compile of FSM_2bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+vsim -gui work.FSM_2bit_tb
+# End time: 22:15:41 on Oct 29,2021, Elapsed time: 1:49:06
+# Errors: 0, Warnings: 2
+# vsim -gui work.FSM_2bit_tb 
+# Start time: 22:15:41 on Oct 29,2021
+# Loading work.FSM_2bit_tb
+# Loading work.FSM_2bit
+add wave -position insertpoint  \
+sim:/FSM_2bit_tb/clk \
+sim:/FSM_2bit_tb/rst \
+sim:/FSM_2bit_tb/state \
+sim:/FSM_2bit_tb/x
+run
+# Compile of FSM_2bit.v was successful.
+# Compile of FSM_2bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FSM_2bit_tb
+# Loading work.FSM_2bit
+run
+# Compile of FSM_2bit.v was successful.
+# Compile of FSM_2bit_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FSM_2bit_tb
+# Loading work.FSM_2bit
 run

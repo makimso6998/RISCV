@@ -21,7 +21,7 @@ module RISCV_tb;
     wire [WIDTH_DATA_LENGTH - 1:0] mux2aluB;
 
     wire [WIDTH_DATA_LENGTH - 1:0] dataR;
-    wire [32- 1:0] DataROut;
+    wire [31:0] dataROut;
 
     wire pcSel;
     wire brEq;
@@ -114,6 +114,7 @@ module RISCV_tb;
                  .port_in_0(dataROut),
                  .port_in_1(alu),
                  .port_in_2(pc4),
+                 .port_in_3(32'b0),
                  .port_out(wb));
     //ROM Control Block
     ROMControl romctrl_1 (.Addr(dec2rom),
@@ -121,8 +122,8 @@ module RISCV_tb;
 /******************* Assign and Always *******************/
     assign {pcSel, immSel, regWEn, brUn, bSel, aSel,
             aluSel, memRWR, dataInR, dataOutAddj, wbSel} = romData;
-    assign #50 memRW = memRWR;
-    assign #50 dataIn = dataInR;
+    assign  memRW = memRWR;
+    assign  dataIn = dataInR;
     initial begin
         #0 clk = 1'b0;
 

@@ -60,7 +60,7 @@ module ROMControl (
 
             //U type
             6'd39:  Data = 20'b0_101_1_0_1_0_1111_0_00_000_01;  //LUI
-            6'd40:  Data = 20'b0_101_1_0_0_1_1110_0_00_000_01;  //AUIPC
+            6'd40:  Data = 20'b0_101_1_0_1_1_1110_0_00_000_01;  //AUIPC
 
             //J type, Unconditional Branch
             6'd41:  Data = 20'b1_110_1_0_1_1_0000_0_00_000_10;  //JAL
